@@ -7,5 +7,5 @@ Adds blocks, units and materials following mindustry style.
 This is under development, i will update it SLOWLY pobably once a month
 "
 minGameVersion: 126.2,
-dependencies: [ ],
+dependencies:["multi-lib"],
 hidden: false

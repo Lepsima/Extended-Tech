@@ -1,0 +1,12 @@
+name: Ammo Factory
+description: "Allows you to fill empty ammo with multiple ammo types"
+size: 3
+itemCapacity: 40
+health: 750
+requirements:
+[
+    copper/350
+    titanium/150
+    graphite/90
+]
+category: crafting 
