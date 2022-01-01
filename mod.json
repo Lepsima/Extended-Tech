@@ -1,0 +1,11 @@
+name: "exttech",
+displayName: "[purple]Extended [accent]Tech",
+author: "Lepisma & Manezoid",
+version: "0.9 [accent]Under develop[]",
+description: "
+Adds blocks, units and materials following mindustry style.
+This is under development, i will update it SLOWLY pobably once a month
+"
+minGameVersion: 126.2,
+dependencies: [ ],
+hidden: false
