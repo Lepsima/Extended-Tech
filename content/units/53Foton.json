@@ -1,0 +1,69 @@
+{
+	"type": "flying",
+        "name": "Foton",
+	"description": "missile copter",
+        "speed": 1,
+        "accel": 0.3,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 19,
+	"health": 1150,
+        "visualElevation": 0.5,
+	"faceTarget": true,
+        "engineSize": 0.01,
+        "drag": 0.1,
+        "research": "52Neutron",
+        "rotateShooting": true,
+	"range": 300,
+	"rotateSpeed": 2, 
+	"weapons": [
+		{
+                        "name": "missiles-large"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "mirror": true,
+                        "top": false,
+			"x": 4,
+			"y": 6,
+			"rotate": true,
+			"reload": 60,
+			"inaccuracy": 2.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 60,
+                                    "damage": 120,
+                                    "speed": 5,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}
+                {
+                        "name": "missiles-mount"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "mirror": true,
+                        "top": false,
+			"x": 7,
+			"y": 6,
+			"rotate": true,
+			"reload": 20,
+			"inaccuracy": 2.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 60,
+                                    "damage": 25,
+                                    "speed": 4,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}        
+	]
+}

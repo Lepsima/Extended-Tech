@@ -1,0 +1,25 @@
+name: Titanium Weaver
+description: .
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+size: 3
+updateEffect: plasticburn
+consumes: {
+  power: 2
+    items:{
+     items:[
+      phase-fabric/3
+      titanium/6
+      ]
+   }
+  }
+requirements: [
+     titanium/150
+     copper/100
+     lead/100
+]
+category: crafting
+research: phase-weaver
+outputItem: PhasedTitanium/2

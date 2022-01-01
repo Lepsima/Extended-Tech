@@ -1,0 +1,45 @@
+{
+	"type": "flying",
+        "name": "Tomahawk",
+	"description": "Unarmored high range anti craft unit, it's giant missile storage lead the unit to exposed ammo bay, double launcher",
+        "speed": 1.7,
+        "accel": 0.1,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 15,
+	"health": 35,
+	"faceTarget": true,
+        "engineOffset": 2,
+        "drag": 0.01,
+        "research": "61Fighter",
+        "rotateShooting": true,
+	"range": 360,
+	"rotateSpeed": 3,
+	"weapons": [
+		{
+                        "name": "inv"
+			"shootSound": "shoot",
+                        "mirror": true,
+                        "top": false,
+			"x": 2,
+			"y": 7,
+			"rotate": false,
+			"reload": 80,
+			"inaccuracy": 3.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "buildingDamageMultiplier": 0.1,
+                                    "width": 3,
+                                    "height": 15,
+                                    "frontColor": cccccc,
+                                    "backColor": eb5b5b,
+                                    "lifetime": 60,
+                                    "damage": 110,
+                                    "speed": 6,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		},          
+	]
+}

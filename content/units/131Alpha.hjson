@@ -1,0 +1,48 @@
+type: mech
+name: Alpha mech
+health: 115
+armor: 2
+hitSize: 10
+speed: 0.8
+buildSpeed: 1.1
+canBoost: true
+boostMultiplier: 1.7
+engineOffset: 5
+engineSize: 3
+rotateSpeed: 4
+weapons: [
+  {
+    name: 131Alpha-gun
+    x: 5
+    y: 0
+    reload: 30
+    recoil: 0.5
+    shots: 2
+    shotDelay: 3
+    shootSound: pew
+    top: false
+    bullet: {
+      type: BasicBulletType
+      damage: 7
+      speed: 4
+      lifetime: 40
+      height: 10
+      width: 8
+    }
+  }
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    range: 40
+    amount: 15
+    reload: 160
+  }
+  {
+    type: ForceFieldAbility
+    radius: 30
+    regen: 0.2
+    max: 70
+    cooldown: 120
+  }
+]

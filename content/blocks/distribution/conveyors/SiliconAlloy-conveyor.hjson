@@ -1,0 +1,12 @@
+name: Silicon Alloy Conveyor
+type: StackConveyor
+requirements: [
+SiliconAlloy/1
+silicon/1
+titanium/1
+]
+health: 150
+speed: 0.04
+itemCapacity: 24
+research: plastanium-conveyor
+category: distribution

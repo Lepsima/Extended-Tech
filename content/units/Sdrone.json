@@ -1,0 +1,45 @@
+{
+	"type": "flying",
+        "name": "Suport Copter",
+	"description": "a support copter",
+        "speed": 2,
+        "accel": 0.5,
+        "controller": "RepairAI",
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 10,
+	"health": 150,
+        "visualElevation": 2,
+	"faceTarget": true,
+        "engineOffset": 0,
+        "drag": 0.01,
+        "research": "51Proton",
+        "rotateShooting": false,
+	"range": 90,
+	"rotatespeed": 0.1, 
+	"weapons": [
+		{
+                        "name": "Drone-Gun"
+			"shootSound": "lasershoot",
+                        "recoil": 0.75,
+                        "mirror": false,
+                        "top": false,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"reload": 20,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+                                    "lifetime": 45,
+                                    "healPercent": 2.5,
+                                    "damage": 5,
+                                    "speed": 4,
+			            "collidesAir": true,
+                                    "collidesTeam": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}          
+	]
+}

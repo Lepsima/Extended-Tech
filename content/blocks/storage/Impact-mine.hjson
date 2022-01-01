@@ -1,0 +1,14 @@
+type: ShockMine
+name: "Impact Mine"
+description: A mine that releases explosive charges on enemy contact
+size: 1
+health: 250
+damage: 30
+shots: 5
+category: effect
+requirements: [
+    lead/10
+    titanium/5
+    blast-compound/25
+]
+research: shock-mine

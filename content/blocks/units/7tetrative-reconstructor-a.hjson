@@ -1,0 +1,37 @@
+name: Hyper Tetrative Reconstructor
+type: Reconstructor
+size: 9
+consumes: {
+  power: 9
+  items: {
+    items: [
+    silicon/1250
+    SiliconAlloy/700
+    phase-fabric/400
+    plastanium/600
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 3
+  }
+}
+constructTime: 3600
+requirements: [
+  lead/3250
+  SiliconAlloy/1250
+  plastanium/700 
+  thorium/1000
+  phase-fabric/600
+  silicon/2500
+]
+upgrades: [
+  [
+    24Vector, 25Cronos
+  ]
+  [
+    14Hydra, 15Doublecorvus
+  ]
+]
+category: units
+research: tetrative-reconstructor

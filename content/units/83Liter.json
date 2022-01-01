@@ -1,0 +1,46 @@
+{
+	"type": "mech",
+        "name": "Liter",
+	"description": "This unit have two snipers, his speed is good.",
+        "speed": 2,
+        "hitSize": 16.5,
+	"health": 160,
+        "armor": 1,
+        "drag": 0.5,
+	"range": 144,
+	"rotateSpeed": 2,
+        "abilities":[
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "51Proton",
+                       "spawnTime": 1200,
+                       "spawnX": 0,
+                       "spawnY": -10,
+                       "spawnEffect": "shockwave"
+                     }
+                   ],
+
+	"weapons": [
+		{
+			"name": "inv",
+			"shootSound": "Sniper",
+                        "recoil": 1,
+                        "alternate": false,
+                        "top": false,
+			"x": 0,
+			"y": 5,
+			"rotate": false,
+			"reload": 90,
+			"inaccuracy": 1.25,
+			"bullet": {
+			            "type": "BasicBulletType",
+			            "lifetime": 240,
+                                    "damage": 150,
+                                    "speed": 2,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

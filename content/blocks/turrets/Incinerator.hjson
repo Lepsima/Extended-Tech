@@ -1,0 +1,123 @@
+{
+name: Incinerator
+description: Bigger version of scorch.
+type: itemTurret
+shootSound: flame
+range: 150
+xRand: 6
+reloadTime: 6
+shots: 1
+size: 2
+health: 850
+inaccuracy: 15
+liquidBoostIntensity: 1.5
+rotatespeed: 1.6
+targetAir: true
+targetGround: true
+ammoTypes: {
+  coal: {
+	                    shootSound: flame
+                            shootEffect: shootPyraFlame
+                            type: LiquidBulletType
+                            liquid: slag
+                            damage: 10
+                            lifetime: 15
+                            orbSize: 1
+                            shootEffect: 
+                                     {
+                                colorFrom: ffdd55
+                                colorTo: db401c
+                                lifetime: 25
+                                particles: 25
+                                cone: 10
+                                length: 150
+                                sizeFrom: 2.3
+                                sizeTo: 1
+                                region: circle
+                                     }
+                                    hitSize: 7
+                                    hitEffect: hitFlameSmall
+                                    keepVelocity: false
+			            hittable: false
+                                    speed: 5
+			            pierce: true
+			            status: burning
+			            statusDuration: 240
+                                   }
+  pyratite: {
+	                    shootSound: flame
+                            shootEffect: shootPyraFlame
+                            type: LiquidBulletType
+                            liquid: slag
+                            damage: 13
+                            lifetime: 30
+                            orbSize: 1
+                            shootEffect: 
+                                     {
+                                colorFrom: ffdd55
+                                colorTo: db401c
+                                lifetime: 25
+                                particles: 25
+                                cone: 10
+                                length: 150
+                                sizeFrom: 2.3
+                                sizeTo: 1
+                                region: circle
+                                     }
+                                    hitSize: 7
+                                    hitEffect: hitFlameSmall
+                                    keepVelocity: false
+			            hittable: false
+                                    speed: 5
+			            pierce: true
+			            status: burning
+			            statusDuration: 340
+                                   }
+  blast-compound: {
+	                    shootSound: flame
+                            shootEffect: shootPyraFlame
+                            type: LiquidBulletType
+                            liquid: slag
+                            damage: 8
+                            splashDamage: 9
+                            splashDamageRadius: 2
+                            lifetime: 30
+                            orbSize: 1
+                            shootEffect: 
+                                     {
+                                colorFrom: ffdd55
+                                colorTo: db401c
+                                lifetime: 25
+                                particles: 25
+                                cone: 10
+                                length: 150
+                                sizeFrom: 2.3
+                                sizeTo: 1
+                                region: circle
+                                     }
+                                    hitSize: 7
+                                    hitEffect: hitFlameSmall
+                                    keepVelocity: false
+			            hittable: false
+                                    speed: 5
+			            pierce: true
+			            status: burning
+			            statusDuration: 240
+                                   }
+		}
+
+consumes: {
+ liquid: {
+  liquid: cryofluid
+  amount: 0.1
+  booster: true
+  optional: true
+  }
+}
+requirements: [
+  graphite/50
+  titanium/45
+]
+ category: turret
+ research: scorch
+}

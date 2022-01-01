@@ -1,0 +1,46 @@
+name: Advanced Additive Reconstructor
+type: Reconstructor
+size: 3
+consumes: {
+  power: 3
+  items: {
+    items: [
+    silicon/60
+    titanium/35
+    ]
+  }
+}
+constructTime: 900
+requirements: [
+  copper/220
+  titanium/120
+  silicon/90
+]
+upgrades: [
+  [
+    21Drone, 22Sentinel
+  ]
+  [
+    81Meter, 82Gram
+  ]
+  [
+    71XWing, 72YWing
+  ]
+  [
+    61Fighter, 62Bomber
+  ]
+  [
+    51Proton, 52Neutron
+  ]
+  [
+    41Langley, 42Independence
+  ]
+  [
+    11Smaw, 12Redeye
+  ]
+  [
+    31Miga, 32Dome
+  ]
+]
+category: units
+research: additive-reconstructor

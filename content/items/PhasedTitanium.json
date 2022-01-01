@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Phased Titanium",
+    "description": "Light version of titanium that haves simlar propieties, used in advanced blocks",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0.2,
+    "charge": 1.3,
+    "cost": 0.5,
+    "color": "4a4747",
+    "research": "NullAmmo"
+}

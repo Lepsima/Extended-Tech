@@ -1,0 +1,61 @@
+{
+	    "type": "legs",
+            "name": "Hydra",
+        "canBoost": "True",
+        "boostMultiplier": 2.25,
+            "description": "shoots a short duration freezing laser beam at enemies",
+            "drag": 0.1,
+            "speed": 0.8,
+            "hitSize": 22,
+            "health": 10500,
+            "armor": 12,
+            "rotateSpeed": 2,
+            "legCount": 6,
+            "legMoveSpace": 0.8,
+            "legPairOffset": 2,
+            "legLength":  35,
+            "legExtension": -15,
+            "legBaseOffset": 10,
+            "landShake": 1,
+            "legLengthScl": 0.96,
+            "rippleScale": 2,
+            "legSpeed": 0.1,
+            "buildSpeed": 2,
+            "legSplashDamage": 42,
+            "legSplashRange": 40,
+            "hovering": true,
+            "allowLegStep": true,
+            "visualElevation": 0.75,
+            "research": "13Tow",
+            "range": 200,
+	"weapons": [
+                 {
+                        "name": "Vector-Gun2"
+			"shootSound": "shoot",
+                        "collidesGround": false,
+                        "recoil": 2,
+			"y": -12,
+			"rotate": true,
+			"reload": 5,
+			"inaccuracy": 4,
+			"bullet": "flakGlass"
+		}
+		{
+			"shootSound": "beam",
+                        "mirror": false,
+			"y": 3
+			"reload": 200,
+                        "continuous": true,
+			"bullet": {
+                "type": "ContinuousLaserBulletType",
+                "damage": 40,
+                "width": 4,
+                "colors": [4194fa,4dc7f7,3799bf,ffffff]
+                "lifetime": 180,
+                "length": 120,
+                "statusDuration": 180,
+                "status": "freezing",
+                                  }
+		}           
+	]
+}

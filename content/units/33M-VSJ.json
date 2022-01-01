@@ -1,0 +1,69 @@
+{
+	"type": "flying",
+        "name": "M-VSJ",
+	"description": "The first flying tank in the world.",
+        "speed": 1.3,
+        "accel": 0.2,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 25,
+	"health": 1150,
+        "visualElevation": 0.1,
+	"faceTarget": true,
+        "engineOffset": 0,
+        "drag": 0.01,
+        "research": "32Dome",
+        "rotateShooting": false,
+	"range": 240,
+	"rotateSpeed": 1.4, 
+	"weapons": [
+		{
+                        "name": "Mortar"
+			"shootSound": "shoot",
+                        "alternate": true,
+                        "recoil": 0,
+                        "mirror": true,
+                        "top": false,
+			"x": 10,
+			"y": 6,
+			"rotate": true,
+			"reload": 60,
+			"inaccuracy": 0,
+			"bullet": {
+			            "type": "ArtilleryBulletType",
+                                    "lifetime": 180,
+                                    "damage": 85,
+                                    "speed": 1,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": false,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}
+		{
+                        "name": "Artillery"
+			"shootSound": "shoot",
+                        "recoil": 2.5,
+                        "shoots": 3,
+                        "mirror": false,
+                        "top": true,
+			"x": 0,
+			"y": -5,
+			"rotate": true,
+			"reload": 40,
+			"inaccuracy": 5,
+			"bullet": {
+			            "type": "ArtilleryBulletType",
+                                    "lifetime": 40,
+                                    "damage": 17,
+                                    "speed": 6,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": false,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}         
+	]
+}

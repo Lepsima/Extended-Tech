@@ -1,0 +1,14 @@
+name: Silicon Alloy Wall Large
+description: Very high resistance wall, can absorb lasers.
+type: Wall
+health: 6850
+size: 2
+requirements: [
+  SiliconAlloy/20
+  plastanium/8
+  metaglass/10
+]
+category: defense
+insulated: true
+absorbLasers: true
+research: plastanium-wall

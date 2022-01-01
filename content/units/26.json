@@ -1,0 +1,42 @@
+{
+	"type": "flying",
+        "name": "Northstar (WIP)",
+	"description": "A massive flying unit hangar with AA systems, the thin armor plates allow more space for units to be, don't let the enemy aproach this unit",
+        "speed": 1.7,
+        "accel": 0.1,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 10,
+	"health": 32000,
+        "visualElevation": 2,
+	"faceTarget": true,
+        "engineOffset": 0,
+        "drag": 0.01,
+        "research": "flare",
+        "rotateShooting": false,
+	"range": 800,
+	"rotatespeed": 0.1, 
+	"weapons": [
+		{
+                        "name": "Drone-Gun"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "mirror": false,
+                        "top": false,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"reload": 20,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "BasicBulletType",
+                                    "lifetime": 45,
+                                    "damage": 9,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

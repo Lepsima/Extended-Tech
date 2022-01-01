@@ -1,0 +1,58 @@
+{
+	    "type": "legs",
+            "name": "Tow",
+            "description": "shoots a long duration freezing laser beam at enemies",
+            "drag": 0.1,
+            "speed": 0.5,
+            "hitSize": 22,
+            "health": 1200,
+            "armor": 5,
+            "rotateSpeed": 2,
+            "legCount": 6,
+            "legMoveSpace": 0.8,
+            "legPairOffset": 3,
+            "legLength": 27,
+            "legExtension": -10,
+            "legBaseOffset": 5,
+            "landShake": 0.5,
+            "legLengthScl": 0.96,
+            "rippleScale": 2,
+            "legSpeed": 0.1,
+            "buildSpeed": 0.5,
+            "legSplashDamage": 42,
+            "legSplashRange": 40,
+            "hovering": true,
+            "allowLegStep": true,
+            "visualElevation": 0.75,
+            "research": "12Redeye",
+            "range": 200,
+            "abilities":[
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "10Sq2",
+                       "spawnTime": 1000,
+                       "spawnY": -12,
+                       "spawnEffect": "spawnShockwave"
+                     }
+                   ],
+	"weapons": [
+		{
+			"shootSound": "beam",
+                        "recoil": 0.75,
+                        "mirror": false,
+			"y": 3,
+			"reload": 400,
+                        "continuous": true,
+			"bullet": {
+                "type": "ContinuousLaserBulletType",
+                "damage": 10,
+                "width": 2,
+                "colors": [4194fa,4dc7f7,3799bf,ffffff]
+                "lifetime": 360,
+                "length": 180,
+                "statusDuration": 120,
+                "status": "freezing",
+                                  }
+		}           
+	]
+}

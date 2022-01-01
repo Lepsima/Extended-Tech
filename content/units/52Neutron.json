@@ -1,0 +1,45 @@
+{
+	"type": "flying",
+        "name": "Neutron",
+	"description": "missile copter",
+        "speed": 2,
+        "accel": 0.3,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 14,
+	"health": 540,
+        "visualElevation": 0.5,
+	"faceTarget": true,
+        "engineSize": 0.01,
+        "drag": 0.1,
+        "research": "51Proton",
+        "rotateShooting": true,
+	"range": 240,
+	"rotateSpeed": 3, 
+	"weapons": [
+		{
+                        "name": "missiles-large"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "mirror": true,
+                        "top": false,
+			"x": 4,
+			"y": 3,
+			"rotate": true,
+			"reload": 60,
+			"inaccuracy": 2.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 60,
+                                    "damage": 95,
+                                    "speed": 4,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}         
+	]
+}

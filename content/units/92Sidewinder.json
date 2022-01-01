@@ -1,0 +1,45 @@
+{
+	"type": "flying",
+        "name": "Sidewinder",
+	"description": "Unarmored high range anti craft unit, it's giant missile storage lead the unit to exposed ammo bay",
+        "speed": 1.7,
+        "accel": 0.1,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 15,
+	"health": 35,
+	"faceTarget": true,
+        "engineOffset": 2,
+        "drag": 0.01,
+        "research": "61Fighter",
+        "rotateShooting": true,
+	"range": 240,
+	"rotatespeed": 0.1,
+	"weapons": [
+		{
+                        "name": "inv"
+			"shootSound": "shoot",
+                        "mirror": false,
+                        "top": false,
+			"x": 0,
+			"y": 5,
+			"rotate": false,
+			"reload": 160,
+			"inaccuracy": 2.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "buildingDamageMultiplier": 0.1,
+                                    "width": 3,
+                                    "height": 15,
+                                    "frontColor": cccccc,
+                                    "backColor": eb5b5b,
+                                    "lifetime": 40,
+                                    "damage": 140,
+                                    "speed": 6,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		},          
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"type": "flying",
+	"description": "an advanced light fighter"
+        "details": "In memory of my first mod, it was about star wars, this one was my first unit ever made, so this unit script is the original one 
+                   (probably unbalanced)" 
+        "accel": 0.08,
+	"name": "Xwing t-65",
+	"circleTarget": true
+        "flying": true,
+        "hitSize": 8,
+	"health": 100,
+	"faceTarget": true
+        "armor": 1.1,
+        "engineOffset": 8,
+        "drag": 0.01,
+	"range": 90,
+        "speed": 2.8,
+	"rotateSpeed": 5,
+        "research": "61Fighter",
+	"weapons": [
+		{
+			"name": "inv",
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "top": false,
+			"x": 8,
+			"y": 0,
+			"rotate": true,
+			"reload": 1,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "SapBulletType",
+                                    "knockback": -5,
+                                    "sapStrength": 1,
+			            "lifetime": 5,
+                                    "color": 91c6ff,
+                                    "damage": 0.1,
+                                    "length": 200,
+			            "collidesAir": true,
+                                  }
+		}           
+	]
+}

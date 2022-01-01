@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Water Unpacker
+description: Unpacks water cells into 16 units of water.
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: steam
+consumes: {
+  power: 1
+  item: WaterCell
+  }
+requirements: [
+     titanium/150
+     copper/100
+     lead/100
+]
+category: crafting
+research: WaterComp
+outputLiquid: water/8
+outputItem: metaglass/1

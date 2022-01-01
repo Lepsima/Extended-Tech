@@ -1,0 +1,53 @@
+{
+	"type": "flying",
+        "name": "Vortex",
+	"description": "A defence static fire Drone",
+        "speed": 1.7,
+        "accel": 0.1,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 25,
+	"health": 1200,
+	"faceTarget": true,
+        "engineOffset": 3,
+        "visualElevation": 5,
+        "drag": 0.01,
+        "research": "22Sentinel",
+        "rotateShooting": true,
+	"range": 90,
+	"rotatespeed": 1,
+        "abilities":[
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 500,
+                       "spawnY": -10f,
+                       "spawnEffect": "shockwave"
+                     }
+                   ], 
+	"weapons": [
+		{
+                        "name": "Vortex-Gun"
+			"shootSound": "shoot",
+                        "recoil": 2,
+                        "mirror": false,
+                        "top": false,
+			"x": 0,
+			"y": 1,
+			"rotate": false,
+			"reload": 40,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "ArtilleryBulletType",
+                                    "lifetime": 45,
+                                    "damage": 65,
+                                    "speed": 4,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

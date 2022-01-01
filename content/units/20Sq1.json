@@ -1,0 +1,52 @@
+{
+	"type": "flying",
+        "name": "Swarmer drone 'Red Squadron'",
+	"description": "A swarmer drone from the 'Red Squadron'",
+        "speed": 3,
+        "details": "The needings of a mass production unit lead to this fast light figter"
+        "accel": 0.1,
+        "circleTarget": true,
+        "flying": true,
+        "hitSize": 6,
+	"health": 75,
+        "visualElevation": 1,
+	"faceTarget": false,
+        "engineOffset": 1,
+        "drag": 0.01,
+        "research": "flare",
+        "rotateShooting": false,
+	"range": 60,
+	"rotatespeed": 0.1, 
+	"weapons": [
+		{
+                        "name": "Drone-gun"
+			"shootSound": "spark",
+                        "recoil": 0,
+                        "shots": 1,
+                        "mirror": false,
+                        "top": true,
+			"x": 0,
+			"y": 3,
+			"rotate": false,
+			"reload": 30,
+			"inaccuracy": 1,
+			"bullet": {
+			            "type": "LightningBulletType",
+                                    "damage": 22,
+                                    "lightningLength": 7,
+                                    "lightningLengthRand": 10,
+			            "collidesAir": true,
+			            "shootEffect": "shootHeal",
+                                    "lightningType": {
+                                        "lifetime": 1,
+                                        "hitEffect": "hitLancer"
+                                        "despawnEffect": "none",
+                                        "status": "shocked",
+                                        "statusDuration": 2,
+                                        "hittable": false,
+                                                     }
+                       
+                                  }
+		}           
+	]
+}

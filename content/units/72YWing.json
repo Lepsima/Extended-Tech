@@ -1,0 +1,86 @@
+{
+	"type": "flying",
+	"description": "Multi prupose bomber-fighter, it's weapon variety can allow the YWing to develop multiple roles, also has a Ion turret",
+        "speed": 2.5,
+        "accel": 0.08,
+	"circleTarget": true
+	"name": "BTL-A4 Ywing",
+        "flying": true,
+        "hitSize": 12,
+	"health": 260,
+	"faceTarget": true,
+        "rotateShooting": false,
+        "armor": 1.1,
+        "drag": 0.01,
+	"range": 90,
+        "engineSize": 1.5,
+        "engineOffset": 3,
+	"rotateSpeed": 3.5,
+        "research": "71XWing",
+	"weapons": [
+		{
+			"name": "YWing-turret",
+			"shootSound": "lasershoot",
+                        "recoil": 0,
+                        "shoots": 2,
+                        "mirror": false,
+                        "top": true,
+			"x": 0,
+			"y": 3,
+			"rotate": true,
+			"reload": 25,
+			"inaccuracy": 5,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 45,
+                                    "damage": 2.2,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "statusDuration": 180,
+                                    "status": {
+                                       "name": "Ionized",
+                                       "disarm": true,
+                                       "speedMultiplier": 0,
+                                       "effectChance": 0.05,
+                                       "effect": {
+                                             "type": "ParticleEffect",
+                                             "particles": 2,
+                                             "length": 0.01,
+                                             "lifetime": 10,
+                                             "line": true,
+                                             "strokeFrom": 1,
+                                              "strokeTo": 1,
+                                             "lenFrom": 5,
+                                             "lenTo": 5,
+                                             "colorTo": "ffffff00",
+                                                 }
+                                              }
+                                  }
+		}  
+                {      
+                        "name": "YWing-mount",
+			"shootSound": "none",
+                        "mirror": false, 
+                        "recoil": 0.75,
+                        "top": false,
+			"x": 0,
+			"y": 0,
+			"rotate": false,
+			"reload": 70,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+			            "lifetime": 80,
+                                    "damage": 50,
+                                    "speed": 1.5,
+			            "collidesAir": true,
+			            "hitSound": "missileExplosive",
+                                    "splashDamageRadius": 10,
+                                    "splashDamage": 150,
+                                    
+                                  }
+               } 
+	]
+}

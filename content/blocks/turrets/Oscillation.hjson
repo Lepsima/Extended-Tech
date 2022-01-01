@@ -1,0 +1,76 @@
+{
+name: Oscillation
+description: Shoots salvos of artyllery bullets at enemyes
+type: itemTurret
+shootSound: artillery
+range: 350
+minRange: 75
+xRand: 3
+recoilAmount: 7
+shootShake: 2.5
+reloadTime: 81
+cooldown: 0.05
+shots: 7
+size: 5
+ammoEjectBack: 5
+ammoUseEffect: casing3Double
+ammoPerShot: 2
+health: 3450
+inaccuracy: 5
+liquidBoostIntensity: 1.5
+rotateSpeed: 0.5
+targetAir: false
+velocityInaccuracy: 0.3
+targetGround: true
+ammoTypes: {
+SiliconAmmo: artilleryHoming
+PiratyteAmmo: artilleryIncendiary
+BlastAmmo: artilleryExplosive
+PlastaniumAmmo: artilleryPlastic
+SurgeAmmo: {
+     type: ArtilleryBulletType
+     width: 14
+     height: 14
+     lightningDamage: 10
+     lightning: 2
+     lightningLength: 10
+     despawnEffect: blastExplosion
+     splashDamage: 35
+     splashDamageRadius: 25
+     hitEffect: blastExplosion
+     damage: 35
+     knockback: 1
+     speed: 2
+}
+SiliconAlloy: {
+     type: ArtilleryBulletType
+     width: 18
+     height: 18
+     lightningDamage: 15
+     lightning: 4
+     lightningLength: 12
+     despawnEffect: blastExplosion
+     splashDamage: 42
+     splashDamageRadius: 32
+     hitEffect: blastExplosion
+     damage: 32
+     knockback: 2
+     speed: 2.3
+}
+SiliconAlloy: artilleryDense
+}
+consumes: {
+ liquid: {
+  liquid: cryofluid
+  amount: 0.1
+  booster: true
+  optional: true
+  }
+}
+requirements: [
+  graphite/50
+  titanium/45
+]
+ category: turret
+ research: ripple
+}

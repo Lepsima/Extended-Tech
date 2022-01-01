@@ -1,0 +1,44 @@
+name: Medium Missile Silo
+description: Powerful missile launch platform with different bullet types.
+type: itemTurret
+range: 450
+reloadTime: 180
+size: 2
+health: 1650
+inaccuracy: 0
+shots: 4
+burstSpacing: 20
+liquidBoostIntensity: 1.5
+rotatespeed: 1.3
+targetAir: true
+targetGround: true
+ammoTypes: {
+  blast-compound: {
+		type : MissileBulletType
+		damage: 230
+		speed: 5
+		lifetime: 60
+		height: 12
+		width: 4
+		ammoMultiplier: 1				
+		hitEffect: blastExplosion
+		shootEffect: producesmoke
+		smokeEffect: hitBulletBig
+                      }
+           }
+consumes: {
+ liquid: {
+  liquid: cryofluid
+  amount: 0.1
+  booster: true
+  optional: true
+  }
+}
+requirements: [
+  graphite/250
+  plastanium/125
+  silicon/550
+  titanium/150
+]
+ category: turret
+ research: SmallSilo

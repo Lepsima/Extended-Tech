@@ -1,0 +1,115 @@
+name: Advanced Factory
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2.2
+}
+plans: [
+  {
+    unit: 131Alpha
+    requirements: [
+      silicon/50
+    ] 
+    time: 600
+  }
+  {
+    unit: 21Drone
+    requirements: [
+      silicon/15
+      graphite/5
+      lead/5
+    ] 
+    time: 600
+  }
+  {
+    unit: 92Sidewinder
+    requirements: [
+      silicon/15
+    ] 
+    time: 600
+  }
+  {
+    unit: 65Sharpnel
+    requirements: [
+      silicon/20
+    ] 
+    time: 600
+  }
+  {
+    unit: 81Meter
+    requirements: [
+      silicon/25
+      lead/20
+    ] 
+    time: 600
+  }
+  {
+    unit: 71XWing
+    requirements: [
+      silicon/25
+      graphite/15
+      lead/15
+    ] 
+    time: 900
+  }
+  {
+    unit: 61Fighter
+    requirements: [
+      silicon/15
+      graphite/10
+      titanium/5
+    ] 
+    time: 600
+  }
+  {
+    unit: 51Proton
+    requirements: [
+      silicon/25
+      copper/30
+      lead/10
+    ] 
+    time: 700
+  }
+  {
+    unit: 41Langley
+    requirements: [
+      silicon/15
+      graphite/10
+      metaglass/10
+    ] 
+    time: 600
+  }
+  {
+    unit: 31Miga
+    requirements: [
+      silicon/18
+      graphite/5
+      copper/25
+    ] 
+    time: 700
+  }
+  {
+    unit: 11Smaw
+    requirements: [
+      silicon/20
+      graphite/15
+    ] 
+    time: 500
+  }
+  {
+    unit: Sdrone
+    requirements: [
+      silicon/25
+      graphite/15
+      lead/10
+    ] 
+    time: 900
+  }
+]
+requirements: [
+  copper/70
+  lead/150
+  silicon/25
+]
+category: units
+research: air-factory

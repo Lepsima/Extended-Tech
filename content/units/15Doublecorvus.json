@@ -1,0 +1,67 @@
+{
+	    "type": "legs",
+            "name": "Stinger",
+            "description": "Vela like unit but optimized for close combat, shoots a long duration freezing laser beam at enemies",
+            "drag": 0.1,
+            "speed": 0.4,
+            "hitSize": 22,
+            "health": 25000,
+            "armor": 15,
+            "rotateSpeed": 1,
+            "legCount": 4,
+            "legMoveSpace": 1.5,
+            "legLength":  20,
+            "legBaseOffset": 11,
+            "landShake": 1.5,
+            "legTrns": 0.6,
+            "buildSpeed": 2,
+            "legSplashDamage": 42,
+            "legSplashRange": 40,
+            "hovering": true,
+            "allowLegStep": true,
+            "research": "14Hydra",
+            "visualElevation": 0.2,
+            "range": 200,
+	"weapons": [
+		{
+			"shootSound": "beam",
+                        "mirror": false,
+			"x": 5,
+			"y": 2,
+			"rotate": false,
+			"reload": 260,
+                        "continuous": true,
+			"inaccuracy": 0,
+			"bullet": {
+                "type": "ContinuousLaserBulletType",
+                "damage": 45,
+                "width": 4,
+                "colors": [4194fa,4dc7f7,3799bf,ffffff]
+                "lifetime": 240,
+                "length": 160,
+                "statusDuration": 180,
+                "status": "freezing",
+                                  }
+		}
+		{
+			"shootSound": "beam",
+                        "mirror": false,
+			"x": -5,
+			"y": 2,
+			"rotate": false,
+			"reload": 260,
+                        "continuous": true,
+			"inaccuracy": 0,
+			"bullet": {
+                "type": "ContinuousLaserBulletType",
+                "damage": 45,
+                "width": 4,
+                "colors": [4194fa,4dc7f7,3799bf,ffffff]
+                "lifetime": 240,
+                "length": 160,
+                "statusDuration": 180,
+                "status": "freezing",
+                                  }
+		}            
+	]
+}

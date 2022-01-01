@@ -1,0 +1,22 @@
+type: CoreBlock
+name: "Core: Nexus"
+description: Core of the base. . Stores humongous amounts of resources.
+details: Next four iteration. Just upgraded nucleus.
+size: 6
+health: 8900
+itemCapacity: 20000
+
+requirements: [
+    copper/10500
+    lead/10500
+    titanium/10500
+    graphite/10500
+    silicon/10500
+    thorium/10500
+    phase-fabric/2250
+]
+category: effect
+research: core-nucleus
+
+unitType: Delta
+unitCapModifier: 32

@@ -1,0 +1,44 @@
+{
+	"type": "flying",
+        "name": "Miga",
+	"description": "The first flying tank in the world.",
+        "speed": 1.8,
+        "accel": 0.2,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 10,
+	"health": 150,
+        "visualElevation": 0.1,
+	"faceTarget": true,
+        "engineOffset": 0,
+        "drag": 0.01,
+        "research": "1air-factory-a",
+        "rotateShooting": false,
+	"range": 120,
+	"rotateSpeed": 3, 
+	"weapons": [
+		{
+                        "name": "Miga-gun"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "mirror": false,
+                        "top": true,
+			"x": 0,
+			"y": -2,
+			"rotate": true,
+			"reload": 20,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "ArtilleryBulletType",
+                                    "lifetime": 40,
+                                    "damage": 12,
+                                    "speed": 3,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

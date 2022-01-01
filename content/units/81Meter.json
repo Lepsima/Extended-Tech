@@ -1,0 +1,34 @@
+{
+	"type": "mech",
+	"description": "This unit has one canon, but is a little slow.",
+        "speed": 1.25,
+        "hitSize": 5.5,
+	"health": 150,
+        "armor": 1,
+        "drag": 0.5,
+	"range": 48,
+	"rotateSpeed": 2,
+	"weapons": [
+		{
+			"name": "inv",
+			"shootSound": "Canon",
+                        "recoil": 1,
+                        "alternate": false,
+                        "top": false,
+			"x": 0,
+			"y": 3,
+			"rotate": false,
+			"reload": 90,
+			"inaccuracy": 1.35,
+			"bullet": {
+			            "type": "BasicBulletType",
+			            "lifetime": 180,
+                                    "damage": 60,
+                                    "speed": 1.5,
+			            "collidesAir": false,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

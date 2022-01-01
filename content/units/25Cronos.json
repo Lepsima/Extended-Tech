@@ -1,0 +1,126 @@
+{
+	"type": "flying",
+        "name": "Chronos",
+	"description": "Flying unit with air heating levitation, armed with a medium railgun and a missile launcher for short range and a duble hangar",
+        "speed": 1,
+        "accel": 0.5,
+        "circleTarget": false,
+        "flying": true,
+        "visualElevation": 3,
+        "hitSize": 50,
+	"health": 22000,
+	"faceTarget": true,
+        "drag": 0.2,
+        "research": "24Vector",
+        "rotateShooting": false,
+	"range": 550,
+	"rotateSpeed": 1.5, 
+        "crashDamageMultiplier": 10,
+        "abilities":[
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 800,
+                       "spawnX": -2,
+                       "spawnY": 10,
+                       "spawnEffect": "shockwave"
+                     }
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 800,
+                       "spawnX": 2,
+                       "spawnY": -10,
+                       "spawnEffect": "shockwave"
+                     }
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 800,
+                       "spawnX": -2,
+                       "spawnY": -10,
+                       "spawnEffect": "shockwave"
+                     }
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 800,
+                       "spawnX": 2,
+                       "spawnY": 10,
+                       "spawnEffect": "shockwave"
+                     }
+                   ],
+	"weapons": [
+                        {
+            "name": "Railgunt5",
+            "rotate": true,
+            "rotateSpeed": 0.8,
+            "mirror": false,
+            "x": 0,
+            "y": -30,
+            "shootY": 20,
+            "shootCone": 0.1,
+            "reload": 160,
+            "shootSound": "railShoot",
+            "recoil": 4,
+            "ejectEffect": "casing4",
+            "bullet": {
+                "type": "RailBulletType",
+                "damage": 1000,
+                "knockback": 6,
+                "length": 600,
+                "statusDuration": 120,
+                "status": "melting",
+                "trailChance": 0.4,
+                "hitEffect": "blastExplosion",
+                "pierceEffect": "railHit",
+                "updateEffect": "railTrail",
+                "shootEffect": "railShoot",
+                "hitShake": 5,
+                "smokeEffect": "shootBig2"
+            }
+        }
+		{
+                        "name": "SwarmerGun"
+			"shootSound": "missile",
+                        "collidesAir": true,
+                        "recoil": 1,
+                        "shots": 2,
+                        "mirror": false,
+                        "top": false,
+			"x": 0,
+			"y": 30,
+			"rotate": true,
+			"reload": 60,
+			"inaccuracy": 3,
+			            "bullet": {
+                "type": "MissileBulletType",
+                "damage": 75,
+                "splashDamage": 40,
+                "splashDamageRadius": 32,
+                "height": 15,
+                "width": 10,
+                "speed": 4,
+                "lifetime": 80,
+                "pierce": false,
+                "homingPower": 5,
+                "homingRange": 60,
+                "weaveScale": 6,
+                "weaveMag": 1,
+                "statusDuration": 1,
+                "status": "blasted"
+                "fragBullets": 2,
+                "fragCone": 180,
+                "hitSound": "explosion",
+                "fragBullet": "artilleryIncendiary"
+                "frontColor": "f57842",
+                "backColor": "d9754a",
+                "trailColor": "cf784c",
+                "trailChance": 0.1,
+                "hitEffect": "hitLancer",
+                "shootEffect": "shootBig2",
+                "smokeEffect": "steam"
+            }
+		}         
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"type": "flying",
+        "name": "Vector",
+	"description": "A defence static fire Drone",
+        "speed": 1.5,
+        "accel": 0.1,
+        "circleTarget": false,
+        "flying": true,
+        "visualElevation": 2,
+        "hitSize": 50,
+	"health": 9700,
+	"faceTarget": true,
+        "drag": 0.01,
+        "research": "23Vortex",
+        "rotateShooting": false,
+	"range": 270,
+        "baseRotateSpeed": 0.05,
+	"rotatespeed": 0.1, 
+        "crashDamageMultiplier": 5,
+	"weapons": [
+                 {
+                        "name": "Vector-Gun2"
+			"shootSound": "shoot",
+                        "collidesGround": false,
+                        "recoil": 2,
+                        "mirror": true,
+                        "top": false,
+			"x": 14,
+			"y": 0,
+			"rotate": true,
+			"reload": 5,
+			"inaccuracy": 4,
+			"bullet": "flakGlass"
+		}
+		{
+                        "name": "Vector-Gun"
+			"shootSound": "shoot",
+                        "collidesAir": false,
+                        "recoil": 2,
+                        "mirror": true,
+                        "top": false,
+			"x": 12,
+			"y": 17,
+			"rotate": true,
+			"reload": 15,
+			"inaccuracy": 3,
+			"bullet": "standardThorium"
+		}
+                {
+                        "name": "Vector-Gun"
+			"shootSound": "shoot",
+                        "collidesAir": false,
+                        "recoil": 2,
+                        "mirror": true,
+                        "top": false,
+			"x": 17,
+			"y": 12,
+			"rotate": true,
+			"reload": 15,
+			"inaccuracy": 3,
+			"bullet": "standardThorium"
+		}
+                {
+                        "name": "Vector-Gun"
+			"shootSound": "shoot",
+                        "collidesAir": false,
+                        "recoil": 2,
+                        "mirror": true,
+                        "top": false,
+			"x": 12,
+			"y": -17,
+			"rotate": true,
+			"reload": 15,
+			"inaccuracy": 3,
+			"bullet": "standardThorium"
+		} 
+                {
+                        "name": "Vector-Gun"
+			"shootSound": "shoot",
+                        "collidesAir": false,
+                        "recoil": 2,
+                        "mirror": true,
+                        "top": false,
+			"x": 17,
+			"y": -12,
+			"rotate": true,
+			"reload": 15,
+			"inaccuracy": 3,
+			"bullet": "standardThorium"
+		}         
+	]
+}

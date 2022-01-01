@@ -1,0 +1,41 @@
+{
+	"type": "flying",
+        "name": "Swarmer drone 'Blue Squadron'",
+	"description": "A swarmer drone from the 'Blue Squadron'",  
+        "details": "The needings of a mass production unit lead to this fast light figter"
+        "speed": 3,
+        "accel": 0.1,
+        "circleTarget": true,
+        "flying": true,
+        "hitSize": 6,
+	"health": 75,
+        "engineOffset": 1,
+        "drag": 0.01,
+        "research": "flare",
+	"range": 60, 
+	"weapons": [
+		{
+                        "name": "Drone-gun",
+			"shootSound": "spark",
+                        "mirror": false,
+			"y": 3,
+			"reload": 30,
+			"bullet": {
+			            "type": "LightningBulletType",
+                                    "damage": 22,
+                                    "lightningLength": 7,
+                                    "lightningLengthRand": 10,
+			            "collidesAir": true,
+			            "shootEffect": "shootHeal",
+                                    "lightningType": {
+                                        "lifetime": 1,
+                                        "hitEffect": "hitLancer"
+                                        "status": "shocked",
+                                        "statusDuration": 2,
+                                        "hittable": false,
+                                                     }
+                       
+                                  }
+		}           
+	]
+}

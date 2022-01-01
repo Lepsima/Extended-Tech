@@ -1,0 +1,69 @@
+{
+	    "type": "naval",
+            "name": "Independence",
+            "description": "",
+            "drag": 0.17,
+            "speed": 0.7,
+            "circleTarget": false,
+            "hitSize": 18,
+            "health": 670,
+            "accel": 0.3,
+            "trailLength": 30,
+            "rotateSpeed": 1.5,
+            "range": 240,
+            "research": "41Langley",
+            "rotateShooting": false,
+            "trailScl": 1.7,
+            "abilities":[
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 800,
+                       "spawnY": 0,
+                       "spawnX": 5,
+                       "spawnEffect": "spawnShockwave"
+                     }
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 800,
+                       "spawnY": -6,
+                       "spawnX": 5,
+                       "spawnEffect": "spawnShockwave"
+                     }
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "20Sq1",
+                       "spawnTime": 800,
+                       "spawnY": -12,
+                       "spawnX": 5,
+                       "spawnEffect": "spawnShockwave"
+                     }
+                   ],
+	"weapons": [  
+       {
+                        "name": "large-artillery"
+			"shootSound": "shoot",
+                        "recoil": 4,
+                        "mirror": false,
+                        "top": false,
+			"x": 4,
+			"y": -2,
+			"rotate": true,
+			"rotateSpeed": 0.8,
+			"reload": 120,
+			"inaccuracy": 0,
+			"bullet": {
+			            "type": "ArtilleryBulletType",
+                                    "lifetime": 60,
+                                    "damage": 230,
+                                    "speed": 4,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": false,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}
+	]
+}

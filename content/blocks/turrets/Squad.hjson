@@ -1,0 +1,70 @@
+{
+name: Squad 
+description: Small version of swarmer, launches missiles at enemies
+type: itemTurret
+range: 200
+reloadTime: 30
+shots: 2
+burstSpacing: 5
+size: 1
+health: 650
+inaccuracy: 15
+liquidBoostIntensity: 1.5
+rotatespeed: 1.3
+targetAir: true
+targetGround: true
+ammoTypes: {
+  silicon: {
+		type : MissileBulletType
+		damage: 2
+                splashDamage: 7
+                splashDamageRadius: 3
+		speed: 5
+		lifetime: 40
+		ammoMultiplier: 2				
+		hitEffect: blastExplosion
+		shootEffect: producesmoke
+		smokeEffect: hitBulletBig
+                      }
+  pyratite: {
+		type : MissileBulletType
+		damage: 3
+                splashDamage: 8
+                splashDamageRadius: 6
+                makeFire: true
+		speed: 5
+		lifetime: 40
+		ammoMultiplier: 3				
+		hitEffect: blastExplosion
+		shootEffect: producesmoke
+		smokeEffect: hitBulletBig
+                      }
+  blast-compound: {
+		type : MissileBulletType
+		damage: 5
+                splashDamage: 15
+                splashDamageRadius: 5
+                makeFire: true
+		speed: 5
+		lifetime: 40
+		ammoMultiplier: 4				
+		hitEffect: blastExplosion
+		shootEffect: producesmoke
+		smokeEffect: hitBulletBig
+                      }
+           }
+consumes: {
+ liquid: {
+  liquid: cryofluid
+  amount: 0.1
+  booster: true
+  optional: true
+  }
+}
+requirements: [
+  graphite/50
+  titanium/45
+]
+ category: turret
+ research: swarmer
+}

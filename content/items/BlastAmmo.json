@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Blast Ammo",
+    "description": "Blast compound optimized for ammunition, more effective",
+    "explosiveness": 1.2,
+    "flammability": 0.3,
+    "radioactivity": 0,
+    "charge": 0,
+    "cost": 0.5,
+    "color": "ffffff",
+    "research": "blast-compound"
+}

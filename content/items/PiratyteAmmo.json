@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Incediary Ammo",
+    "description": "pyratite optimized for ammunition, more effective",
+    "explosiveness": 0.3,
+    "flammability": 1.2,
+    "radioactivity": 0,
+    "charge": 0,
+    "cost": 0.5,
+    "color": "ffffff",
+    "research": "NullAmmo"
+}

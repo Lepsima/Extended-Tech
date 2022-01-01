@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Empty Ammo",
+    "description": "A bullet casing, can hold various types of ammos, need to be filled",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "cost": 0.1,
+    "color": "ffffff",
+    "research": "Armory"
+}

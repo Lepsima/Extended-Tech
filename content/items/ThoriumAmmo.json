@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Radioactive Ammo",
+    "description": "Thorium optimized for ammunition, more effective",
+    "explosiveness": 0,
+    "flammability": 0.3,
+    "radioactivity": 1.8,
+    "charge": 0,
+    "cost": 0.5,
+    "color": "ffffff",
+    "research": "NullAmmo"
+}

@@ -1,0 +1,71 @@
+{
+	"type": "flying",
+        "name": "Arrow",
+	"description": "Mass producting big fighter for filling the biggest spaceships hangars, great damage and speed, alternative to tiny fighters",
+        "speed": 2.8,
+        "details": "Now that space warfare has become a reality, better and optimized units are needed"
+        "commandLimit": 7,
+        "accel": 0.1,
+        "circleTarget": true,
+        "flying": true,
+        "hitSize": 18,
+	"health": 950,
+	"faceTarget": true,
+        "engineSize": 3.5,
+        "engineOffset": 12,
+        "drag": 0.005,
+        "research": "62Bomber",
+        "rotateShooting": true,
+	"range": 175,
+	"rotateSpeed": 4, 
+	"weapons": [
+		{
+                        "name": "Arrow-small-mount"
+			"shootSound": "pew",
+                        "recoil": 0.5,
+                        "alternate": true,
+                        "ejectEffect": "casing1",
+                        "mirror": true,
+                        "top": false,
+			"x": 7,
+			"y": -0.7,
+			"rotate": false,
+			"reload": 15,
+			"inaccuracy": 1.65,
+			"bullet": {
+			            "type": "BasicBulletType",
+                                    "lifetime": 60,
+                                    "width": 6,
+                                    "height": 10,
+                                    "damage": 28,
+                                    "speed": 2.5,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		} 
+		{
+                        "name": "Arrow-mount"
+			"shootSound": "pew",
+                        "recoil": 0.5,
+                        "alternate": true,
+                        "ejectEffect": "casing2",
+                        "mirror": true,
+                        "top": false,
+			"x": 7.3,
+			"y": -9,
+			"rotate": false,
+			"reload": 30,
+			"inaccuracy": 1.65,
+			"bullet": {
+			            "type": "BasicBulletType",
+                                    "lifetime": 120,
+                                    "width": 5,
+                                    "height": 12,
+                                    "damage": 55,
+                                    "speed": 2.5,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}        
+	]
+}

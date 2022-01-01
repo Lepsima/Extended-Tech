@@ -1,0 +1,35 @@
+{
+	"type": "mech",
+        "name": "Gram",
+	"description": "This unit has one canon, but is a very slow.",
+        "speed": 0.75,
+        "hitSize": 11,
+	"health": 170,
+        "armor": 1,
+        "drag": 0.5,
+	"range": 96,
+	"rotateSpeed": 1.5,
+	"weapons": [
+		{
+			"name": "inv",
+			"shootSound": "Canon",
+                        "recoil": 1,
+                        "alternate": false,
+                        "top": false,
+			"x": 0,
+			"y": 4,
+			"rotate": false,
+			"reload": 90,
+			"inaccuracy": 1,
+			"bullet": {
+			            "type": "BasicBulletType",
+			            "lifetime": 180,
+                                    "damage": 110,
+                                    "speed": 1.5,
+			            "collidesAir": false,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

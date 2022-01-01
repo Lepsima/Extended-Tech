@@ -1,0 +1,86 @@
+{
+	"type": "flying",
+        "name": "Drone",
+	"description": "A Basic static fire Drone",
+        "speed": 1.7,
+        "accel": 0.1,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 10,
+	"health": 150,
+	"faceTarget": true,
+        "engineSize": 0.001,
+        "drag": 0.01,
+        "research": "1air-factory-a",
+        "rotateShooting": false,
+	"range": 90,
+	"rotatespeed": 0.1, 
+	"weapons": [
+		{
+                        "name": "Drone-Gun"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "mirror": false,
+                        "shoots": 1
+                        "top": false,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"reload": 60,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 45,
+                                    "damage": 15,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}
+		{
+                        "name": "Drone-Gun"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "mirror": false,
+                        "shoots": 1
+                        "top": false,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"reload": 70,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 45,
+                                    "damage": 15,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}   
+		{
+                        "name": "Drone-Gun"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "mirror": false,
+                        "shoots": 1
+                        "top": false,
+			"x": 0,
+			"y": 0,
+			"rotate": true,
+			"reload": 50,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 45,
+                                    "damage": 15,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}          
+	]
+}

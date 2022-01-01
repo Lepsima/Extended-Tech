@@ -1,0 +1,51 @@
+{
+	"type": "payload",
+        "name": "Delta",
+	"description": "Defends the network core, capable of carring payloads",
+        "speed": 5,
+        "accel": 0.1,
+        "circleTarget": true,
+        "flying": true,
+        "hitSize": 6,
+        "payloadCapacity": 257.5,
+	"health": 350,
+        "buildSpeed": 3.8,
+        "visualElevation": 1,
+	"faceTarget": true,
+        "engineOffset": 7,
+        "drag": 0.1,
+        "rotateShooting": true,
+	"range": 60,
+	"rotateSpeed": 4, 
+	"weapons": [
+		{
+			"shootSound": "spark",
+                        "recoil": 0,
+                        "shots": 1,
+                        "mirror": false,
+                        "top": true,
+			"x": 0,
+			"y": 3,
+			"rotate": true,
+			"reload": 10,
+			"inaccuracy": 1,
+			"bullet": {
+			            "type": "LightningBulletType",
+                                    "damage": 9.5,
+                                    "lightningLength": 7,
+                                    "lightningLengthRand": 10,
+			            "collidesAir": true,
+			            "shootEffect": "shootHeal",
+                                    "lightningType": {
+                                        "lifetime": 1,
+                                        "hitEffect": "hitLancer"
+                                        "despawnEffect": "none",
+                                        "status": "shocked",
+                                        "statusDuration": 10,
+                                        "hittable": false,
+                                                     }
+                       
+                                  }
+		}           
+	]
+}

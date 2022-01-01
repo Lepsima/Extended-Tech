@@ -1,0 +1,104 @@
+{
+	"type": "flying",
+        "name": "Javelin",
+	"description": "The lightest combat spaceShip, this ship can be classified as a destroyer (anti-unit)",
+        "speed": 1.8,
+        "details": "Now that space warfare has become a reality, better and optimized units are needed"
+        "commandLimit": 7,
+        "accel": 0.1,
+        "armor": 12,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 40,
+        "singleTarget": true,
+	"health": 9560,
+	"faceTarget": true,
+        "engineSize": 3.5,
+        "engineOffset": 12,
+        "drag": 0.005,
+        "research": "63Arrow",
+        "rotateShooting": true,
+	"range": 180,
+	"rotateSpeed": 1,  
+	"weapons": [
+		{
+                        "name": "Javelin-mount"
+			"shootSound": "bang",
+                        "shake": 2.5,
+                        "alternate": true,
+                        "ejectEffect": "casing3",
+                        "mirror": true,
+                        "shots": 5,
+                        "top": false,
+			"x": 17,
+			"y": 2,
+			"rotate": false,
+			"reload": 40,
+                        "shotDelay": 3,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "BasicBulletType",
+                                    "lifetime": 30,
+                                    "recoil": .2,
+                                    "width": 10,
+                                    "height": 22,
+                                    "damage": 25,
+                                    "speed": 6,
+			            "shootEffect": "shootBig",
+                                    "smokeEffect": "shootBigSmoke"
+                                  }
+		},
+		{
+                        "name": "Heavy-Ion-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 4,
+                        "mirror": true,
+                        "shots": 3,
+                        "top": true,
+			"x": 10,
+			"y": -18,
+			"rotate": true,
+			"reload": 80,
+                        "shotDelay": 3,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 45,
+                                    "damage": 2.2,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "statusDuration": 180,
+                                    "status": "unmoving"
+
+                                  }
+		} 
+		{
+                        "name": "Heavy-Ion-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 4,
+                        "mirror": false,
+                        "shots": 3,
+                        "top": true,
+			"x": 0,
+			"y": 9.9,
+			"rotate": true,
+			"reload": 40,
+                        "shotDelay": 3,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 45,
+                                    "damage": 2.2,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "statusDuration": 180,
+                                    "status": "unmoving"
+
+                                  }
+		}          
+	]
+}

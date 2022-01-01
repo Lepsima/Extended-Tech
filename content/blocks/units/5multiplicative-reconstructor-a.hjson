@@ -1,0 +1,46 @@
+name: Advanced Multiplicative Reconstructor
+type: Reconstructor
+size: 5
+consumes: {
+  power: 6
+  items: {
+    items: [
+    silicon/130
+    titanium/95
+    metaglass/50
+    ]
+  }
+}
+constructTime: 1500
+requirements: [
+  thorium/650
+  titanium/300
+  silicon/400
+  lead/700
+  plastanium/150
+]
+upgrades: [
+  [
+    22Sentinel, zenith
+  ]
+  [
+    92Sidewinder, 93Tomahawk
+  ]
+  [
+    82Gram, 83Liter
+  ]
+  [
+    62Bomber, 63Arrow
+  ]
+  [
+    32Dome, 33M-VSJ
+  ]
+  [
+    52Neutron, 53Foton
+  ]
+  [
+    12Redeye, 13Tow
+  ]
+]
+category: units
+research: multiplicative-reconstructor

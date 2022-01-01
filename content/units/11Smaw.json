@@ -1,0 +1,45 @@
+{
+	    "type": "legs",
+            "name": "Smaw",
+            "description": "thiny arc spider",
+            "drag": 0.1,
+            "speed": 0.8,
+            "hitSize": 8,
+            "health": 155,
+            "rotateSpeed": 3,
+            "legCount": 4,
+            "legMoveSpace": 1.3,
+            "legLength": 12,
+            "legTrns": 0.6,
+            "buildSpeed": 0.5,
+            "legSplashDamage": 3,
+            "legSplashRange": 2,
+            "hovering": true,
+            "allowLegStep": true,
+            "visualElevation": 0.2,
+            "research": "1air-factory-a",
+            "range": 75,
+	"weapons": [
+		{
+			"shootSound": "spark",
+                        "mirror": false,
+			"y": 3
+			"reload": 20,
+			"bullet":  {
+			            "type": "LightningBulletType",
+                                    "damage": 18,
+                                    "lightningLength": 9,
+                                    "lightningLengthRand": 7,
+			            "collidesAir": true,
+			            "shootEffect": "shootHeal",
+                                    "lightningType": {
+                                        "lifetime": 1,
+                                        "hitEffect": "hitLancer"
+                                        "despawnEffect": "none",
+                                        "status": "shocked",
+                                        "statusDuration": 2,
+                                        "hittable": false,
+                                                     }}
+		}           
+	]
+}

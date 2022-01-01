@@ -1,0 +1,48 @@
+{
+	"type": "flying",
+        "name": "Lance",
+	"description": "Low drag tech for space battles, spams little bullets",
+        "speed": 3.5,
+        "details": "Now that space warfare has become a reality, better and optimized units are needed"
+        "commandLimit": 5,
+        "accel": 0.1,
+        "circleTarget": true,
+        "flying": true,
+        "hitSize": 9,
+	"health": 105,
+        "targetFlag": "battery",
+	"faceTarget": true,
+        "engineSize": 2.5,
+        "engineOffset": 4,
+        "drag": 0.005,
+        "research": "1air-factory-a",
+        "rotateShooting": true,
+	"range": 175,
+	"rotateSpeed": 4, 
+	"weapons": [
+		{
+                        "name": "SmallGunMount"
+			"shootSound": "pew",
+                        "recoil": 0.5,
+                        "alternate": true,
+                        "ejectEffect": "casing1",
+                        "mirror": true,
+                        "top": false,
+			"x": 3,
+			"y": 2,
+			"rotate": false,
+			"reload": 5,
+			"inaccuracy": 1.65,
+			"bullet": {
+			            "type": "BasicBulletType",
+                                    "lifetime": 60,
+                                    "width": 4,
+                                    "height": 5,
+                                    "damage": 4.4,
+                                    "speed": 2.5,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}         
+	]
+}

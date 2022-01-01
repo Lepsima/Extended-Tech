@@ -1,0 +1,68 @@
+{
+	"type": "flying",
+        "name": "Dome",
+	"description": "The first flying tank in the world.",
+        "speed": 1.8,
+        "accel": 0.2,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 17,
+	"health": 450,
+        "visualElevation": 0.1,
+	"faceTarget": true,
+        "engineOffset": 0,
+        "drag": 0.01,
+        "research": "31Miga",
+        "rotateShooting": false,
+	"range": 120,
+	"rotateSpeed": 3, 
+	"weapons": [
+		{
+                        "name": "Domes_canon"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "mirror": false,
+                        "top": true,
+			"x": 0,
+			"y": 5,
+			"rotate": true,
+			"reload": 30,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "ArtilleryBulletType",
+                                    "lifetime": 40,
+                                    "damage": 26,
+                                    "speed": 3,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": false,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}
+		{
+                        "name": "missiles-mount"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "mirror": true,
+                        "top": true,
+			"x": 4,
+			"y": -2,
+			"rotate": true,
+			"reload": 20,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 20,
+                                    "damage": 5,
+                                    "speed": 5,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}         
+	]
+}

@@ -1,0 +1,201 @@
+{
+	"type": "flying",
+        "name": "Sharpnel",
+	"description": "The most affordable battleship, Equiped with 3-4 barrel batteries, also contains a Ion charge cannon, can disarm units for short periods",
+        "speed": 0.8,
+        "details": "Now that space warfare has become a reality, better and optimized units are needed"
+        "commandLimit": 4,
+        "accel": 0.1,
+        "armor": 12,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 60,
+	"health": 21600,
+	"faceTarget": true,
+        "engineSize": 9,
+        "engineOffset": 22,
+        "drag": 0.005,
+        "research": "63Arrow",
+        "rotateShooting": false,
+	"range": 180,
+	"rotateSpeed": 1, 
+	"weapons": [
+		{
+                        "name": "Heavy-Ion-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 4,
+                        "mirror": false,
+                        "shots": 3,
+                        "top": true,
+			"x": 0,
+			"y": -20,
+			"rotate": true,
+			"reload": 60,
+                        "shotDelay": 3,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 45,
+                                    "frontColor": 7696db,
+                                    "backColor": 7696db,
+                                    "damage": 2.2,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "statusDuration": 30,
+                                    "status": "unmoving",
+                                  }
+		} 
+		{
+                        "name": "Heavy-Ion-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 4,
+                        "mirror": true,
+                        "shots": 3,
+                        "top": true,
+			"x": 23,
+			"y": -19,
+			"rotate": true,
+			"reload": 50,
+                        "shotDelay": 4,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 40,
+                                    "frontColor": 7696db,
+                                    "backColor": 7696db,
+                                    "damage": 2.2,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "statusDuration": 30,
+                                    "status": "unmoving",
+                                  }
+		}
+		{
+                        "name": "Heavy-Ion-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 4,
+                        "mirror": true,
+                        "shots": 3,
+                        "top": true,
+			"x": 13,
+			"y": 25,
+			"rotate": true,
+			"reload": 70,
+                        "shotDelay": 2,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 65,
+                                    "frontColor": 7696db,
+                                    "backColor": 7696db,
+                                    "damage": 2.2,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "statusDuration": 30,
+                                    "status": "unmoving",
+                                  }
+		}
+		{
+                        "name": "Quad-Laser-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 7,
+                        "mirror": true,
+                        "shots": 4,
+                        "top": true,
+			"x": 13,
+			"y": -13,
+			"rotate": true,
+			"reload": 30,
+                        "shotDelay": 10,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 145,
+                                    "frontColor": 3cf06c,
+                                    "backColor": 3cf06c,
+                                    "damage": 27,
+                                    "speed": 3,
+			            "collidesAir": true,
+			            "shootEffect": "shootBig",
+                                    "smokeEffect": "shootBigSmoke"
+                                  }
+		} 
+		{
+                        "name": "Quad-Laser-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 7,
+                        "mirror": true,
+                        "shots": 4,
+                        "top": true,
+			"x": 10,
+			"y": 15,
+			"rotate": true,
+			"reload": 40,
+                        "shotDelay": 10,
+			"inaccuracy": 4,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 98,
+                                    "frontColor": 3cf06c,
+                                    "backColor": 3cf06c,
+                                    "damage": 23,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootBig",
+                                    "smokeEffect": "shootBigSmoke"
+                                  }
+		} 
+		{
+                        "name": "Heavy-Ion-Core-Mount"
+			"shootSound": "lasershoot",
+                        "xRand": 4,
+                        "mirror": false,
+                        "shots": 6,
+                        "top": true,
+			"x": 0,
+			"y": -3,
+			"rotate": true,
+			"reload": 180,
+                        "shotDelay": 2,
+			"inaccuracy": 3,
+			"bullet": {
+			            "type": "LaserBoltBulletType",
+			            "lifetime": 65,
+                                    "damage": 35,
+                                    "speed": 5,
+                                    "frontColor": ffac30,
+                                    "backColor": ffac30,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "statusDuration": 60,
+                                    "status": {
+                                       "name": "IonizedCore",
+                                       "disarm": true, 
+                                       "show": false,
+                                       "speedMultiplier": 0,
+                                       "effectChance": 0.1,
+                                       "effect": {
+                                             "type": "ParticleEffect",
+                                             "particles": 4,
+                                             "length": 0.02,
+                                             "lifetime": 15,
+                                             "line": true,
+                                             "strokeFrom": 1,
+                                              "strokeTo": 1,
+                                             "lenFrom": 5,
+                                             "lenTo": 5,
+                                             "colorTo": "ffffff00",
+                                                 }
+                                              }
+
+                                  }
+		}               
+	]
+}

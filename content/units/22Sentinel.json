@@ -1,0 +1,62 @@
+{
+	"type": "flying",
+        "name": "Sentinel",
+	"description": "A defence static fire Drone",
+        "speed": 1.7,
+        "accel": 0.1,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 15,
+	"health": 450,
+	"faceTarget": true,
+        "engineOffset": 0,
+        "drag": 0.01,
+        "research": "21Drone",
+        "rotateShooting": false,
+	"range": 90,
+	"rotatespeed": 0.1,
+	"weapons": [
+		{
+                        "name": "missiles-mount"
+			"shootSound": "shoot",
+                        "recoil": 0.5,
+                        "mirror": false,
+                        "top": false,
+			"x": 0,
+			"y": 5,
+			"rotate": true,
+			"reload": 40,
+			"inaccuracy": 2.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 25,
+                                    "damage": 35,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		},
+		{
+                        "name": "missiles-mount"
+			"shootSound": "shoot",
+                        "recoil": 0.85,
+                        "mirror": false,
+                        "top": false,
+			"x": 0,
+			"y": -5,
+			"rotate": true,
+			"reload": 60,
+			"inaccuracy": 1.1,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 30,
+                                    "damage": 42,
+                                    "speed": 4.5,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

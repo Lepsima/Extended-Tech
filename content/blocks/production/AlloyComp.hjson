@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Alloy Compressor
+description: Combines silicon, plastanium and titanium into silicon alloy.
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: steam
+consumes: {
+  power: 4
+    items:{
+     items:[
+      silicon/4
+      plastanium/2
+      titanium/1
+      ]
+   }
+  }
+requirements: [
+     titanium/150
+     copper/100
+     lead/100
+]
+category: crafting
+research: alloy-smelter
+outputItem: SiliconAlloy/3

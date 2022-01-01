@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Silicon Alloy",
+    "description": "An upgraded version of silicon, more strong and heavy, used on large units",
+    "explosiveness": 0,
+    "flammability": 0.1,
+    "radioactivity": 0,
+    "charge": 0.5,
+    "cost": 1.2,
+    "color": "404247",
+    "research": "silicon"
+}

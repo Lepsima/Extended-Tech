@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: Water Packer
+description: Uses metaglass and water to make water cells.
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: steam
+consumes: {
+  power: 2
+  item: metaglass
+  liquid: water/0.266666666667
+  }
+requirements: [
+     titanium/150
+     copper/100
+     lead/100
+]
+category: crafting
+research: water-extractor
+outputItem: WaterCell/1

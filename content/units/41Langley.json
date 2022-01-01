@@ -1,0 +1,27 @@
+{
+	    "type": "naval",
+            "name": "Langley",
+            "description": "",
+            "drag": 0.13,
+            "speed": 0.8,
+            "circleTarget": false,
+            "hitSize": 10,
+            "health": 320,
+            "accel": 0.5,
+            "trailLength": 20,
+            "rotateSpeed": 2.3,
+            "range": 800,
+            "research": "1air-factory-a",
+            "rotateShooting": false,
+            "abilities":[
+                     {
+                       "type": "UnitSpawnAbility",
+                       "unit": "10Sq2",
+                       "spawnTime": 800,
+                       "spawnY": -5,
+                       "spawnEffect": "spawnShockwave"
+                     }
+                   ],
+	"weapons": [         
+	]
+}

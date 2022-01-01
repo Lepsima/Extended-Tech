@@ -1,0 +1,39 @@
+{
+	"type": "flying",
+        "name": "----Spirit Fighter----  Cancelled",
+	"description": "A basic stealth fighter",
+        "speed": 3,
+        "accel": 0.1,
+        "circleTarget": true
+        "flying": true,
+        "hitSize": 8,
+	"health": 95,
+	"faceTarget": false
+        "engineOffset": 3,
+        "drag": 0.01,
+        "research": "flare",
+	"range": 90,
+	"rotatespeed": 0.1,
+	"weapons": [
+		{
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "top": false,
+			"x": 0,
+			"y": 3,
+			"rotate": false,
+			"reload": 10,
+			"inaccuracy": 1.2,
+			"bullet": {
+			            "type": "BasicBulletType",
+                                    "lifetime": 45,
+                                    "damage": 18,
+                                    "speed": 4,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}           
+	]
+}

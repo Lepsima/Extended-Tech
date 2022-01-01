@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Charged Ammo",
+    "description": "Surge alloy optimized for ammunition, more effective",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 1.8,
+    "cost": 0.5,
+    "color": "ffffff",
+    "research": "NullAmmo"
+}

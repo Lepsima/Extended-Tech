@@ -1,0 +1,43 @@
+type: Reconstructor
+name: Advanced Exponential Reconstructor
+size: 7
+consumes: {
+  power: 7
+  items: {
+    items: [
+    silicon/925
+    graphite/150
+    titanium/825
+    plastanium/700
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+  }
+}
+constructTime: 2100
+requirements: [
+  graphite/1200
+  titanium/1200
+  thorium/500
+  plastanium/525
+  phase-fabric/650
+  silicon/750
+]
+upgrades: [
+  [
+    zenith, 24Vector
+  ]
+  [
+    63Arrow, 64Javelin
+  ]
+  [
+    53Foton, 54Electron
+  ] 
+  [
+    13Tow, 14Hydra
+  ]
+]
+category: units
+research: exponential-reconstructor

@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Armory
+description: Creates empty ammo casings, needs a specific factory for filling each casing type.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: steam
+consumes: {
+  power: 1
+    items:{
+     items:[
+      copper/7
+      lead/4
+      coal/5
+      ]
+   }
+  }
+requirements: [
+     titanium/150
+     copper/100
+     lead/100
+]
+category: crafting
+research: silicon-smelter
+outputItem: NullAmmo/5

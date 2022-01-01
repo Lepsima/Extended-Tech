@@ -1,0 +1,84 @@
+{
+	"type": "flying",
+        "name": "Electron",
+	"description": "missile copter",
+        "speed": 1,
+        "accel": 0.3,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 40,
+	"health": 8750,
+        "visualElevation": 0.5,
+	"faceTarget": true,
+        "engineSize": 0.01,
+        "drag": 0.1,
+        "research": "53Foton",
+        "rotateShooting": true,
+	"range": 300,
+	"rotateSpeed": 1, 
+	"weapons": [
+		{
+                        "name": "missiles-large"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "mirror": true,
+                        "top": false,
+			"x": 4,
+			"y": 6,
+			"rotate": true,
+			"reload": 60,
+			"inaccuracy": 2.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 60,
+                                    "damage": 150,
+                                    "speed": 5,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                    "fragBullets": 1,
+                                    "fragAngle": 90,
+                                    "fragBullet":   { 
+			                   "type": "MissileBulletType",
+                                           "lifetime": 30,
+                                           "damage": 90,
+                                           "speed": 5,
+                                           "collides": true,
+                                           "collidesTiles": true,
+			                   "collidesAir": true,
+			                   "shootEffect": "shootSmall",
+                                           "smokeEffect": "shootSmallSmoke"
+                                           "fragAngle": 45,
+                                           "fragBullets": 1,
+                                    "fragBullet":   { 
+			                   "type": "MissileBulletType",
+                                           "lifetime": 30,
+                                           "damage": 60,
+                                           "speed": 5,
+                                           "collides": true,
+                                           "collidesTiles": true,
+			                   "collidesAir": true,
+			                   "shootEffect": "shootSmall",
+                                           "smokeEffect": "shootSmallSmoke"
+                                           "fragAngle": 12.5,
+                                           "fragBullets": 1,
+                                    "fragBullet":   { 
+			                   "type": "MissileBulletType",
+                                           "lifetime": 20,
+                                           "damage": 60,
+                                           "speed": 5,
+                                           "collides": true,
+                                           "collidesTiles": true,
+			                   "collidesAir": true,
+			                   "shootEffect": "shootSmall",
+                                           "smokeEffect": "shootSmallSmoke"
+                                                     }
+                                                     }
+                                                     }
+                                  }
+		}        
+	]
+}

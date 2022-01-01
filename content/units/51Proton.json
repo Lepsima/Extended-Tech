@@ -1,0 +1,45 @@
+{
+	"type": "flying",
+        "name": "Proton",
+	"description": "missile copter",
+        "speed": 2,
+        "accel": 0.3,
+        "circleTarget": false,
+        "flying": true,
+        "hitSize": 9,
+	"health": 170,
+        "visualElevation": 0.5,
+	"faceTarget": true,
+        "engineSize": 0.01,
+        "drag": 0.1,
+        "research": "22Sentinel",
+        "rotateShooting": true,
+	"range": 200,
+	"rotateSpeed": 3, 
+	"weapons": [
+		{
+                        "name": "mini-missiles-mount"
+			"shootSound": "shoot",
+                        "recoil": 0.75,
+                        "alternate": true,
+                        "mirror": true,
+                        "top": false,
+			"x": 4,
+			"y": 1,
+			"rotate": true,
+			"reload": 40,
+			"inaccuracy": 2.2,
+			"bullet": {
+			            "type": "MissileBulletType",
+                                    "lifetime": 40,
+                                    "damage": 17,
+                                    "speed": 5,
+                                    "collides": true,
+                                    "collidesTiles": true,
+			            "collidesAir": true,
+			            "shootEffect": "shootSmall",
+                                    "smokeEffect": "shootSmallSmoke"
+                                  }
+		}         
+	]
+}
