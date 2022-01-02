@@ -1,0 +1,7 @@
+name: Deuterium
+description: liquid deuterium is made on the fusion injector to pass it to the fusion core 
+details: intended only for using in the fusion reactor
+temperature: 0.01
+viscosity: 0.7
+color: dac5fc
+research: cryofluid

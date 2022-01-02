@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: Fusion Injector
+description: Injects deuterium on the fusion core.
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: steam
+consumes: {
+  power: 3
+  liquid: water/1
+  }
+requirements: [
+     titanium/150
+     copper/100
+     lead/100
+]
+category: crafting
+research: cryofluid-mixer
+outputLiquid: deuterium/20

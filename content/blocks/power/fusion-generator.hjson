@@ -1,6 +1,6 @@
 type: ImpactReactor
 name: "Fusion core"
-description: "The core of the [accent]Fusion reactor[]"
+description: "The core of the [accent]Fusion reactor[] works with deuterium and phased titanium"
 size: 4
 hasPower: true
 hasLiquids: true
@@ -12,7 +12,7 @@ powerProduction: 360
 plasmas: 3
 consumes: {
  power: 9
- liquid: cryofluid/1
+ liquid: deuterium/1
   items: {
    items: [
     PhasedTitanium/1
@@ -27,4 +27,4 @@ requirements: [
   plastanium/200
 ]
 category: power
-research: thorium-reactor
+research: impact-reactor
