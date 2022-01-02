@@ -1,13 +1,14 @@
 type: ImpactReactor
 name: "Fusion core"
-description: "One core of the [accent]Fusion reactor[]"
+description: "The core of the [accent]Fusion reactor[]"
+size: 4
 hasPower: true
 hasLiquids: true
 hasItems: true
-itemCapacity: 20
-liquidCapacity: 20
-itemDuration: 90
-powerProduction: 82
+itemCapacity: 120
+liquidCapacity: 120
+itemDuration: 30
+powerProduction: 360
 plasmas: 3
 consumes: {
  power: 9
