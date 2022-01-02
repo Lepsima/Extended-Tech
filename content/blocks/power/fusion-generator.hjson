@@ -1,4 +1,4 @@
-type: ImpactReactor
+type: NuclearReactor
 name: "Fusion core"
 description: "One core of the [accent]Fusion reactor[]"
 size: 3
@@ -7,9 +7,8 @@ hasItems: true
 itemCapacity: 120
 itemDuration: 90
 powerProduction: 82
-plasmas: 5
+
 consumes: {
- power: 9
   items: {
    items: [
     copper/1
