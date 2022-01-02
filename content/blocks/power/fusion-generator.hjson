@@ -1,23 +1,28 @@
-type: SingleTypeGenerator
+type: ImpactReactor
 name: "Fusion core"
 description: "One core of the [accent]Fusion reactor[]"
-size: 3
 hasPower: true
+hasLiquids: true
 hasItems: true
-itemCapacity: 120
+itemCapacity: 20
+liquidCapacity: 20
 itemDuration: 90
 powerProduction: 82
-
+plasmas: 3
 consumes: {
+ power: 9
+ liquid: cryofluid/1
   items: {
    items: [
-    copper/1
+    PhasedTitanium/1
     ]
   }
 }
 requirements: [
   metaglass/500
+  graphite/300
   silicon/400
+  SiliconAlloy/200
   plastanium/200
 ]
 category: power
