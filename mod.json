@@ -1,11 +1,15 @@
 name: "exttech",
 displayName: "[purple]Extended [accent]Tech",
 author: "Lepisma & Manezoid",
-version: "0.9 [accent]Under develop[]",
+version: "0.91 [accent]Under develop[]",
 description: "
-Adds blocks, units and materials following mindustry style.
-This is under development, i will update it SLOWLY pobably once a month
+Adds blocks, units and materials following(or at least trying) mindustry style.
+Also contains some unfinished conceps(using json) like tractor beams, ion turrets and more
+
+This is under development, i will update it SLOWLY so maybe i take breaks
+
+Now only works on V7 (v135)
 "
-minGameVersion: 126.2,
+minGameVersion: 135,
 dependencies:["multi-lib"],
 hidden: false
