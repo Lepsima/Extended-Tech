@@ -1,4 +1,4 @@
-type: NuclearReactor
+type: SingleTypeGenerator
 name: "Fusion core"
 description: "One core of the [accent]Fusion reactor[]"
 size: 3
