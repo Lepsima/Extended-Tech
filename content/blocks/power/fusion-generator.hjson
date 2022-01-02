@@ -1,0 +1,25 @@
+type: ImpactReactor
+name: "Fusion core"
+description: "One core of the [accent]Fusion reactor[]"
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 120
+itemDuration: 90
+powerProduction: 82
+plasmas: 5
+consumes: {
+ power: 9
+  items: {
+   items: [
+    copper/1
+    ]
+  }
+}
+requirements: [
+  metaglass/500
+  silicon/400
+  plastanium/200
+]
+category: power
+research: thorium-reactor
