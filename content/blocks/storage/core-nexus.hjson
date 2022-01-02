@@ -1,7 +1,7 @@
 type: CoreBlock
 name: "Core: Nexus"
-description: Core of the base. . Stores humongous amounts of resources.
-details: Next four iteration. Just upgraded nucleus.
+description: Core of the base
+details: Fourth iteration.
 size: 6
 health: 8900
 itemCapacity: 20000
@@ -18,5 +18,5 @@ requirements: [
 category: effect
 research: core-nucleus
 
-unitType: Delta
+unitType: 131Alpha
 unitCapModifier: 32

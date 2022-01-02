@@ -1,9 +1,8 @@
 {
 	"type": "flying",
         "name": "Sharpnel",
-	"description": "The most affordable battleship, Equiped with 3-4 barrel batteries, also contains a Ion charge cannon, can disarm units for short periods",
+	"description": "The most affordable battleship, Equiped with 3-4 barrel batteries, also contains a Ion charge cannon, can disarm units for short periods, doesn't do well against swarms of enemies",
         "speed": 0.8,
-        "details": "Now that space warfare has become a reality, better and optimized units are needed"
         "commandLimit": 4,
         "accel": 0.1,
         "armor": 12,

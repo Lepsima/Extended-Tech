@@ -23,6 +23,7 @@
 		{
 			"shootSound": "spark",
                         "mirror": false,
+                        "x": 0,
 			"y": 3
 			"reload": 20,
 			"bullet":  {

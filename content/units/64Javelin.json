@@ -1,9 +1,8 @@
 {
 	"type": "flying",
         "name": "Javelin",
-	"description": "The lightest combat spaceShip, this ship can be classified as a destroyer (anti-unit)",
+	"description": "Equiped with 2 main salvo cannons and 3 ion turrets",
         "speed": 1.8,
-        "details": "Now that space warfare has become a reality, better and optimized units are needed"
         "commandLimit": 7,
         "accel": 0.1,
         "armor": 12,

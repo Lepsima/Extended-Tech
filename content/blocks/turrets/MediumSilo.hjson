@@ -1,5 +1,5 @@
 name: Medium Missile Silo
-description: Powerful missile launch platform with different bullet types.
+description: Powerful missile launch platform with different bullet types (unbalanced, op).
 type: itemTurret
 range: 450
 reloadTime: 180

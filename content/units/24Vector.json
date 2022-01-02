@@ -1,7 +1,7 @@
 {
 	"type": "flying",
         "name": "Vector",
-	"description": "A defence static fire Drone",
+	"description": "Usually used for constant bombarding against medium-threat bases",
         "speed": 1.5,
         "accel": 0.1,
         "circleTarget": false,
@@ -22,6 +22,8 @@
                         "name": "Vector-Gun2"
 			"shootSound": "shoot",
                         "collidesGround": false,
+                        "autoTarget": true,
+                        "controllable": false,
                         "recoil": 2,
                         "mirror": true,
                         "top": false,
@@ -36,7 +38,6 @@
                         "name": "Vector-Gun"
 			"shootSound": "shoot",
                         "collidesAir": false,
-                        "recoil": 2,
                         "mirror": true,
                         "top": false,
 			"x": 12,
@@ -50,7 +51,6 @@
                         "name": "Vector-Gun"
 			"shootSound": "shoot",
                         "collidesAir": false,
-                        "recoil": 2,
                         "mirror": true,
                         "top": false,
 			"x": 17,
@@ -64,7 +64,6 @@
                         "name": "Vector-Gun"
 			"shootSound": "shoot",
                         "collidesAir": false,
-                        "recoil": 2,
                         "mirror": true,
                         "top": false,
 			"x": 12,
@@ -78,7 +77,6 @@
                         "name": "Vector-Gun"
 			"shootSound": "shoot",
                         "collidesAir": false,
-                        "recoil": 2,
                         "mirror": true,
                         "top": false,
 			"x": 17,

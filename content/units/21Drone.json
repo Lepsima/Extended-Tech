@@ -1,7 +1,7 @@
 {
 	"type": "flying",
         "name": "Drone",
-	"description": "A Basic static fire Drone",
+	"description": "Standard flying unit with a couple missile launchers",
         "speed": 1.7,
         "accel": 0.1,
         "circleTarget": false,

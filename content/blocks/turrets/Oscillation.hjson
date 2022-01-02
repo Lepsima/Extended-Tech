@@ -1,6 +1,6 @@
 {
 name: Oscillation
-description: Shoots salvos of artyllery bullets at enemyes
+description: Shoots salvos of artillery bullets at enemies
 type: itemTurret
 shootSound: artillery
 range: 350

@@ -1,7 +1,7 @@
 {
 	    "type": "naval",
             "name": "Langley",
-            "description": "",
+            "description": "A prototype for a aircraft carrier unit",
             "drag": 0.13,
             "speed": 0.8,
             "circleTarget": false,

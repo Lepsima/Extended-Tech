@@ -1,9 +1,8 @@
 {
 	"type": "flying",
         "name": "Arrow",
-	"description": "Mass producting big fighter for filling the biggest spaceships hangars, great damage and speed, alternative to tiny fighters",
+	"description": "A big and quite fast fighter for more high scale attacks",
         "speed": 2.8,
-        "details": "Now that space warfare has become a reality, better and optimized units are needed"
         "commandLimit": 7,
         "accel": 0.1,
         "circleTarget": true,

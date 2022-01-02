@@ -1,7 +1,7 @@
 {
 	    "type": "naval",
             "name": "Independence",
-            "description": "",
+            "description": "Second prototype",
             "drag": 0.17,
             "speed": 0.7,
             "circleTarget": false,

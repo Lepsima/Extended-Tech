@@ -1,5 +1,6 @@
 type: mech
 name: Alpha mech
+definition: alternative to the Delta unit, experimental ground core unit
 health: 115
 armor: 2
 hitSize: 10

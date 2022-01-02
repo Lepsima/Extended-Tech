@@ -1,8 +1,7 @@
 {
 	"type": "flying",
 	"description": "an advanced light fighter"
-        "details": "In memory of my first mod, it was about star wars, this one was my first unit ever made, so this unit script is the original one 
-                   (probably unbalanced)" 
+        "details": "Shoots tractor beams" 
         "accel": 0.08,
 	"name": "Xwing t-65",
 	"circleTarget": true

@@ -1,7 +1,7 @@
 {
 	"type": "flying",
         "name": "Sentinel",
-	"description": "A defence static fire Drone",
+	"description": "Dual missile launcher drone",
         "speed": 1.7,
         "accel": 0.1,
         "circleTarget": false,

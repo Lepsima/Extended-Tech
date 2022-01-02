@@ -1,6 +1,6 @@
 {
 	"type": "flying",
-	"description": "Multi prupose bomber-fighter, it's weapon variety can allow the YWing to develop multiple roles, also has a Ion turret",
+	"description": "Good against small groups of units, equiped with a automatic ion turret and a missile launcher",
         "speed": 2.5,
         "accel": 0.08,
 	"circleTarget": true
@@ -21,6 +21,8 @@
 		{
 			"name": "YWing-turret",
 			"shootSound": "lasershoot",
+                        "autoTarget": true,
+                        "controllable": false,
                         "recoil": 0,
                         "shoots": 2,
                         "mirror": false,

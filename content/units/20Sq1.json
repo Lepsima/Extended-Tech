@@ -1,9 +1,8 @@
 {
 	"type": "flying",
-        "name": "Swarmer drone 'Red Squadron'",
-	"description": "A swarmer drone from the 'Red Squadron'",
+        "name": "Swarmer drone <Orange>",
+	"description": "A small unit used in medium units for cover and distraction, not that useful alone",
         "speed": 3,
-        "details": "The needings of a mass production unit lead to this fast light figter"
         "accel": 0.1,
         "circleTarget": true,
         "flying": true,

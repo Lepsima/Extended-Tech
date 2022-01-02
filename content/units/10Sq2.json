@@ -1,8 +1,7 @@
 {
 	"type": "flying",
-        "name": "Swarmer drone 'Blue Squadron'",
-	"description": "A swarmer drone from the 'Blue Squadron'",  
-        "details": "The needings of a mass production unit lead to this fast light figter"
+        "name": "Swarmer drone <Blue>",
+	"description": "A small unit used in medium units for cover and distraction, not that useful alone",
         "speed": 3,
         "accel": 0.1,
         "circleTarget": true,
@@ -18,6 +17,7 @@
                         "name": "Drone-gun",
 			"shootSound": "spark",
                         "mirror": false,
+                        "x": 0,
 			"y": 3,
 			"reload": 30,
 			"bullet": {

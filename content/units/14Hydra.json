@@ -3,7 +3,7 @@
             "name": "Hydra",
         "canBoost": "True",
         "boostMultiplier": 2.25,
-            "description": "shoots a short duration freezing laser beam at enemies",
+            "description": "shoots a short duration freezing laser beam at enemies, also equiped with an anti-air autoTurret",
             "drag": 0.1,
             "speed": 0.8,
             "hitSize": 22,
@@ -33,7 +33,11 @@
                         "name": "Vector-Gun2"
 			"shootSound": "shoot",
                         "collidesGround": false,
+                        "controllable": false,
+                        "autoTarget": true,
+                        "mirror": false,
                         "recoil": 2,
+                        "x": 0,
 			"y": -12,
 			"rotate": true,
 			"reload": 5,
@@ -43,6 +47,7 @@
 		{
 			"shootSound": "beam",
                         "mirror": false,
+                        "x": 0,
 			"y": 3
 			"reload": 200,
                         "continuous": true,

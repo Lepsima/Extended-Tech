@@ -1,9 +1,8 @@
 {
 	"type": "flying",
         "name": "Lance",
-	"description": "Low drag tech for space battles, spams little bullets",
+	"description": "spams little bullets",
         "speed": 3.5,
-        "details": "Now that space warfare has become a reality, better and optimized units are needed"
         "commandLimit": 5,
         "accel": 0.1,
         "circleTarget": true,
