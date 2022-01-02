@@ -7,42 +7,72 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
     {
         input:{
             items:["exttech-NullAmmo/2","copper/4"],
-            power: 2.5
+            power: 0.5
         },
         output:{
             items:["exttech-CopperAmmo/2"],
         },
-        craftTime: 90
+        craftTime: 30
     },
     {
         input:{
             items:["exttech-NullAmmo/2","graphite/4"],
-            power: 2.5
+            power: 1
         },
         output:{
             items:["exttech-GraphiteAmmo/2"],
         },
-        craftTime: 90
+        craftTime: 45
+    },
+    {
+        input:{
+            items:["exttech-NullAmmo/2","silicon/4"],
+            power: 1
+        },
+        output:{
+            items:["exttech-SiliconAmmo/2"],
+        },
+        craftTime: 45
     },
     {
         input:{
             items:["exttech-NullAmmo/2","metaglass/4"],
-            power: 2.5
+            power: 1
         },
         output:{
             items:["exttech-MetaglassAmmo/2"],
         },
-        craftTime: 90
+        craftTime: 45
+    },
+    {
+        input:{
+            items:["exttech-NullAmmo/2","thorium/4"],
+            power: 1.5
+        },
+        output:{
+            items:["exttech-ThoriumAmmo/2"],
+        },
+        craftTime: 65
     },
     {
         input:{
             items:["exttech-NullAmmo/2","pyratite/4"],
-            power: 2.5
+            power: 1.5
         },
         output:{
             items:["exttech-PiratyteAmmo/2"],
         },
-        craftTime: 90
+        craftTime: 65
+    },
+    {
+        input:{
+            items:["exttech-NullAmmo/2","blast-compound/4"],
+            power: 2
+        },
+        output:{
+            items:["exttech-BlastAmmo/2"],
+        },
+        craftTime: 65
     },
     {
         input:{
@@ -56,31 +86,11 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
     },
     {
         input:{
-            items:["exttech-NullAmmo/2","silicon/4"],
-            power: 2.5
-        },
-        output:{
-            items:["exttech-SiliconAmmo/2"],
-        },
-        craftTime: 90
-    },
-    {
-        input:{
             items:["exttech-NullAmmo/2","surge-alloy/4"],
             power: 2.5
         },
         output:{
             items:["exttech-SurgeAmmo/2"],
-        },
-        craftTime: 90
-    },
-    {
-        input:{
-            items:["exttech-NullAmmo/2","thorium/4"],
-            power: 2.5
-        },
-        output:{
-            items:["exttech-ThoriumAmmo/2"],
         },
         craftTime: 90
     },
