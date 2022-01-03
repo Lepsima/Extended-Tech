@@ -1,26 +1,22 @@
 {
-name: Oscillation
-description: Shoots salvos of artillery bullets at enemies
+name: Metal Rain
+description: Shoots constant high-range artillery bullets at enemies, very imprecise
 type: itemTurret
 shootSound: artillery
-range: 350
-minRange: 75
-xRand: 3
-recoilAmount: 7
-shootShake: 2.5
-reloadTime: 81
+range: 600
+minRange: 125
+shootShake: 1
+reloadTime: 150
+brustSpacing: 11
 cooldown: 0.05
-shots: 7
-size: 5
-ammoEjectBack: 5
-ammoUseEffect: casing3Double
-ammoPerShot: 2
-health: 3450
+shots: 9
+size: 3
+health: 1250
 inaccuracy: 5
-liquidBoostIntensity: 1.5
-rotateSpeed: 0.5
+liquidBoostIntensity: 1.75
+rotateSpeed: 10
 targetAir: false
-velocityInaccuracy: 0.3
+velocityInaccuracy: 0.2
 targetGround: true
 ammoTypes: {
 SiliconAmmo: artilleryHoming
@@ -41,22 +37,7 @@ SurgeAmmo: {
      damage: 35
      knockback: 1
      speed: 2
-}
-SiliconAlloy: {
-     type: ArtilleryBulletType
-     width: 18
-     height: 18
-     lightningDamage: 15
-     lightning: 4
-     lightningLength: 12
-     despawnEffect: blastExplosion
-     splashDamage: 42
-     splashDamageRadius: 32
-     hitEffect: blastExplosion
-     damage: 32
-     knockback: 2
-     speed: 2.3
-}
+           }
 }
 consumes: {
  liquid: {
@@ -67,11 +48,9 @@ consumes: {
   }
 }
 requirements: [
-  copper/650
-  lead/350
-  graphite/500
-  titanium/450
-  SiliconAlloy/250
+  lead/250
+  silicon/350
+  titanium/345
 ]
  category: turret
  research: ripple
