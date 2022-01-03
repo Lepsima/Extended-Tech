@@ -4,7 +4,7 @@ description: Shoots constant high-range artillery bullets at enemies, very impre
 type: itemTurret
 shootSound: artillery
 range: 600
-minRange: 125
+minRange: 100
 shootShake: 1
 reloadTime: 150
 burstSpacing: 11
@@ -12,7 +12,7 @@ cooldown: 0.05
 shots: 9
 size: 3
 health: 1250
-inaccuracy: 5
+inaccuracy: 1
 liquidBoostIntensity: 1.75
 rotateSpeed: 10
 targetAir: false
