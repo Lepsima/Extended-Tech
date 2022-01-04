@@ -10,7 +10,7 @@ updateEffect: steam
 consumes: {
   power: 1.3
   item: Palladium
-  liquid: Water/0.1
+  liquid: water/0.1
   }
 requirements: [
      Lead/355
