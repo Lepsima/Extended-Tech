@@ -1,9 +1,9 @@
 {  
     "type": "resource",
     "name": "Palladium",
-    "description": "Very radioactive, used in advanced structures",
+    "description": "Very radioactive, used in as fuel or reactive ammo",
     "details": "hard to obtain, but worth it",
-    "explosiveness": 0,
+    "explosiveness": 0.3,
     "flammability": 0.2,
     "radioactivity": 2.3,
     "charge": 0.3,

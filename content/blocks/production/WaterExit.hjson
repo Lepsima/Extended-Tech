@@ -18,5 +18,5 @@ requirements: [
 ]
 category: crafting
 research: WaterComp
-outputLiquid: water/8
-outputItem: metaglass/1
+outputLiquid: water/9
+outputItem: metaglass

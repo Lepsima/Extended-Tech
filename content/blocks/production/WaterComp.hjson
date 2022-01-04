@@ -10,7 +10,7 @@ updateEffect: steam
 consumes: {
   power: 2
   item: metaglass
-  liquid: water/0.266666666667
+  liquid: water/0.3
   }
 requirements: [
      titanium/150
@@ -19,4 +19,4 @@ requirements: [
 ]
 category: crafting
 research: water-extractor
-outputItem: WaterCell/1
+outputItem: WaterCell

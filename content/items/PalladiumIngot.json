@@ -1,0 +1,12 @@
+{  
+    "type": "material",
+    "name": "Palladium Ingot",
+    "description": "Less radioactive but more charged than the ore, used in buildings",
+    "explosiveness": 0.1,
+    "flammability": 0.1,
+    "radioactivity": 1.1,
+    "charge": 0.8,
+    "cost": 1.8,
+    "color": "e7885c",
+    "research": "Palladium"
+}

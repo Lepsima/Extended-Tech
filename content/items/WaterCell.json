@@ -1,7 +1,7 @@
 {  
     "type": "material",
     "name": "Water Cell",
-    "description": "Contains 16 units of water",
+    "description": "Contains 18 units of water",
     "color": "479EB1",
     "research": "metaglass"
 }
