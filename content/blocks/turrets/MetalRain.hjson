@@ -2,23 +2,24 @@
 name: Metal Rain
 description: Shoots constant high-range artillery bullets at enemies, very imprecise
 type: itemTurret
-shootSound: artillery
-range: 600
+shootSound: shootBig
+range: 650
 minRange: 125
-shootShake: 1
-reloadTime: 750
-burstSpacing: 16
+recoilAmount: 7
+shootCone: 1
+reloadTime: 125
 cooldown: 0.05
-shots: 32
+shots: 3
 size: 3
 health: 765
-liquidBoostIntensity: 1.75
-velocityInaccuracy: 0.3
+inaccuracy: 0.1
+liquidBoostIntensity: 1.5
 rotateSpeed: 10
 targetAir: false
+velocityInaccuracy: 0.3
 targetGround: true
 ammoTypes: {
-SiliconAmmo: artilleryHoming
+SiliconAmmo: standardCopper
 PiratyteAmmo: artilleryIncendiary
 BlastAmmo: artilleryExplosive
 PlastaniumAmmo: artilleryPlastic
@@ -34,7 +35,6 @@ SurgeAmmo: {
      splashDamageRadius: 25
      hitEffect: blastExplosion
      damage: 35
-     knockback: 1
      speed: 2
            }
 }
