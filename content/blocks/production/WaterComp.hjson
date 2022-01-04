@@ -19,4 +19,4 @@ requirements: [
 ]
 category: crafting
 research: water-extractor
-outputItem: WaterCell
+outputItem: WaterCell/1
