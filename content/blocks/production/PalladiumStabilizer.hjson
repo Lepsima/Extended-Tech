@@ -13,8 +13,8 @@ consumes: {
   liquid: water/0.1
   }
 requirements: [
-     Lead/355
-     Graphite/175
+     lead/355
+     graphite/175
      SiliconAlloy/150
 ]
 category: crafting
