@@ -6,14 +6,14 @@ shootSound: artillery
 range: 600
 minRange: 125
 shootShake: 1
-reloadTime: 750
+reloadTime: 325
 burstSpacing: 16
 cooldown: 0.05
-shots: 32
+shots: 16
 size: 3
 health: 765
 liquidBoostIntensity: 1.75
-velocityInaccuracy: 0.3
+restitution: 0.03
 rotateSpeed: 10
 targetAir: false
 targetGround: true
