@@ -1,0 +1,38 @@
+{
+name: Windstorm
+description: Shoots medium damage bullets at enemies.
+type: itemTurret
+range: 290
+xRand: 2
+reloadTime: 15
+size: 2
+health: 755
+inaccuracy: 2
+liquidBoostIntensity: 1.5
+rotateSpeed: 2.5
+targetAir: true
+targetGround: true
+ammoTypes: {
+CopperAmmo: standardCopper
+GraphiteAmmo: standardDense
+SiliconAmmo: standardHoming
+PiratyteAmmo: standardInciendary
+ThoriumAmmo: standardThorium
+}
+consumes: {
+ liquid: {
+  liquid: cryofluid
+  amount: 0.12
+  booster: true
+  optional: true
+  }
+}
+requirements: [
+  copper/100
+  graphite/125
+  titanium/75
+  silicon/90
+]
+ category: turret
+ research: salvo
+}
