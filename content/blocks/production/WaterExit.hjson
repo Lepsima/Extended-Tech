@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: Water Unpacker
 description: Unpacks water cells into 16 units of water.
 size: 2

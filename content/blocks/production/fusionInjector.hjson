@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: Fusion Injector
 description: Injects deuterium on the fusion core.
 size: 2

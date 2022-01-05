@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: Armory
 description: Creates empty ammo casings, needs a specific factory for filling each casing type.
 size: 2

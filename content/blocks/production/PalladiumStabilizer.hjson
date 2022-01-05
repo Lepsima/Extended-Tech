@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: Palladium Stabilizer
 description: Transforms palladium ore into an ingot for better management and safety,
 size: 3
