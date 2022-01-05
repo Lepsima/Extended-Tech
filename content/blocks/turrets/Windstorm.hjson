@@ -4,11 +4,15 @@ description: Shoots medium damage bullets at enemies.
 type: itemTurret
 range: 290
 xRand: 2
-reloadTime: 15
+reloadTime: 5
+recoilAmount: 3
+restitution: 0.03
 size: 2
 health: 755
 inaccuracy: 2
 liquidBoostIntensity: 1.5
+ammoUseEffect: casing2
+ammoPerShot: 2
 rotateSpeed: 2.5
 targetAir: true
 targetGround: true
