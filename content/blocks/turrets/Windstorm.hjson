@@ -16,7 +16,7 @@ ammoTypes: {
 CopperAmmo: standardCopper
 GraphiteAmmo: standardDense
 SiliconAmmo: standardHoming
-PiratyteAmmo: standardIncendary
+PiratyteAmmo: standardIncendiary
 ThoriumAmmo: standardThorium
 }
 consumes: {
