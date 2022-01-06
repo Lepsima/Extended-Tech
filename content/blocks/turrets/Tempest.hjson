@@ -1,0 +1,41 @@
+{
+name: Tempest
+description: Shoots high damage bullets at constant speeds.
+type: itemTurret
+range: 350
+xRand: 6
+reloadTime: 1.5
+recoilAmount: 3
+restitution: 0.03
+size: 4
+health: 1575
+inaccuracy: 2
+liquidBoostIntensity: 1.5
+ammoUseEffect: casing2Double
+rotateSpeed: 6
+targetAir: true
+targetGround: true
+ammoTypes: {
+CopperAmmo: standardCopper
+GraphiteAmmo: standardDense
+SiliconAmmo: standardHoming
+PiratyteAmmo: standardIncendiary
+ThoriumAmmo: standardThorium
+}
+consumes: {
+ liquid: {
+  liquid: cryofluid
+  amount: 0.3
+  booster: true
+  optional: false
+  }
+}
+requirements: [
+  copper/1250
+  graphite/325
+  titanium/450
+  silicon/945
+]
+ category: turret
+ research: cyclone
+}
