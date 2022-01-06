@@ -7,10 +7,9 @@ reloadTime: 2.5
 recoilAmount: 3
 restitution: 0.03
 size: 4
-shotWidth: 10
+spread: 10
 health: 1575
 inaccuracy: 5
-liquidBoostIntensity: 1.5
 ammoEjectBack: 5
 ammoUseEffect: casing2Double
 rotateSpeed: 6
