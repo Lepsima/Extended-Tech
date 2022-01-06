@@ -4,13 +4,15 @@ description: Shoots high damage bullets at constant speeds.
 type: itemTurret
 range: 350
 xRand: 6
-reloadTime: 1.5
+reloadTime: 2.5
 recoilAmount: 3
 restitution: 0.03
 size: 4
+shotWidth: 10
 health: 1575
-inaccuracy: 2
+inaccuracy: 5
 liquidBoostIntensity: 1.5
+ammoEjectBack: 5
 ammoUseEffect: casing2Double
 rotateSpeed: 6
 targetAir: true
