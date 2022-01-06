@@ -18,7 +18,6 @@ ammoUseEffect: casing2Double
 rotateSpeed: 6
 ammoTypes: {
 MetaglassAmmo: flakGlass
-BlastAmmo: flakExplosive
 PlastaniumAmmo: flakPlastic
 SurgeAmmo: flakSurge
 }
