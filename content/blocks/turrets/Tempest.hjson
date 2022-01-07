@@ -17,9 +17,10 @@ ammoEjectBack: 7
 ammoUseEffect: casing2Double
 rotateSpeed: 6
 ammoTypes: {
-MetaglassAmmo: flakGlass
-PlastaniumAmmo: flakPlastic
-SurgeAmmo: flakSurge
+MetaglassAmmo: fragGlass
+BlastAmmo: fragExplosive
+PlastaniumAmmo: fragGlass
+SurgeAmmo: fragSurge
 }
 consumes: {
  liquid: {
