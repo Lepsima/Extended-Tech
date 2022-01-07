@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Water Packer
-description: Uses metaglass and water to make water cells.
+description: Uses metaglass and water to make water cells, warning: the water compressing and decompressing ratio is 1:2.
 size: 2
 hasPower: true
 hasLiquids: true

@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Water Unpacker
-description: Unpacks water cells into 16 units of water.
+description: Unpacks water cells into 18 units of water, warning: the water compressing and decompressing ratio is 1:2.
 size: 2
 hasPower: true
 hasLiquids: true
@@ -18,5 +18,5 @@ requirements: [
 ]
 category: crafting
 research: WaterComp
-outputLiquid: water/9
+outputLiquid: water/18
 outputItem: metaglass/1
