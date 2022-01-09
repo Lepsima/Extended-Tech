@@ -1,0 +1,48 @@
+type: ItemTurret
+health: 765
+shootSound: railgun
+category: turret
+requirements:
+[
+    surge-alloy/90
+    plastanium/180
+    silicon/50
+    titanium/220
+]
+size: 3
+ammoUseEffect: casing3Double
+reloadTime: 45
+range: 300
+itemCapacity: 45
+shootEffect: railShoot
+recoilAmount: 2
+controllable: false
+rotateSpeed: 15
+description: "Point defense turret but for low tier units, good against light flying units"
+details: Specially good aginst flares and horizons
+name: Shadow
+ammoTypes:
+{
+    surge-alloy: {
+        hitEffect: instHit
+        smokeEffect: shootBig2
+        updateEffect: railTrail
+        pierceEffect: railHit
+        damage: 80
+        pierceDamageFactor: 0.8
+        length: 300
+        ammoMultiplier: 12
+        type: RailBulletType
+    }
+    SurgeAmmo: {
+        hitEffect: instHit
+        smokeEffect: shootBig2
+        updateEffect: railTrail
+        pierceEffect: railHit
+        damage: 90
+        pierceDamageFactor: 1.2
+        length: 350
+        ammoMultiplier: 24
+        type: RailBulletType
+    }
+}
