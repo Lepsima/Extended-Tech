@@ -3,7 +3,7 @@
             "name": "Hydra",
         "canBoost": "True",
         "boostMultiplier": 2.25,
-            "description": "shoots a short duration freezing laser beam at enemies, also equiped with an anti-air autoTurret",
+            "description": "shoots a short duration freezing laser beam at enemies, also equiped with an EMP support turret",
             "drag": 0.1,
             "speed": 0.8,
             "hitSize": 22,
@@ -30,19 +30,78 @@
             "range": 200,
 	"weapons": [
                  {
-                        "name": "Vector-Gun2"
+                        "name": "EMP-Cannon"
 			"shootSound": "shoot",
-                        "collidesGround": false,
-                        "controllable": false,
-                        "autoTarget": true,
+                        "collidesGround": true,
                         "mirror": false,
                         "recoil": 2,
                         "x": 0,
-			"y": -12,
+			"y": -15,
 			"rotate": true,
-			"reload": 5,
-			"inaccuracy": 4,
-			"bullet": "flakGlass"
+			"reload": 60,
+			"inaccuracy": 1,
+			"bullet": {
+"type": "EmpBulletType",
+"rad": 35,
+"scaleVelocity": true,
+"damage": 20,
+"splashDamage": 30,
+"splashDamageRadius": 30,
+"healPercent": 7,
+"radius": 30,
+"unitDamageScl": 0.8,
+"timeIncrease": 1.25,
+"timeDuration": 240,
+"clipSize": 150,
+"speed": 5,
+"lifetime": 40,
+"sprite": "circle-bullet",
+"width": 6,
+"height": 6,
+"shrinkY": 0,
+"frontColor": ffffff,
+"backColor": 83f793,
+"lightColor": 83f793,
+"hitColor": 83f793,
+"shootEffect": "hitEmpSpark",
+"hitSound": "plasmaboom",
+"splashDamage": 25,
+"trailRotation": true,
+"status": "electrified",
+"splashDamageRadius": 30,
+"powerDamageScl": 3,
+"hitEffect": {
+  "lifetime": 70,
+  "effects": [
+    {
+      "lifetime": 5,
+      "particles": 1,
+      "length": 0,
+      "sizeFrom": 30,
+      "sizeTo": 30,
+      "colorFrom": 83f793,
+      "colorTo": "83f793,
+    }
+    {
+      "lifetime": 70,
+      "sizeFrom": 30,
+      "sizeTo": 30,
+      "strokeFrom": 2,
+      "strokeTo": 0,
+      "colorFrom": 83f793,
+      "colorTo": 83f793,
+    }
+    {
+      "lifetime": 70,
+      "length": 0,
+      "particles": 1,
+      "sizeFrom": 4,
+      "sizeTo": 0,
+      "colorTo": 83f793,
+    }
+  ]
+}
+}
 		}
 		{
 			"shootSound": "beam",
