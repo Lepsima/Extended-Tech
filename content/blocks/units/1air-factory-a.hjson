@@ -29,13 +29,6 @@ plans: [
     time: 600
   }
   {
-    unit: 65Sharpnel
-    requirements: [
-      silicon/20
-    ] 
-    time: 600
-  }
-  {
     unit: 81Meter
     requirements: [
       silicon/25
