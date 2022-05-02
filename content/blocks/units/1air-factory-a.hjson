@@ -6,11 +6,12 @@ consumes: {
 }
 plans: [
   {
-    unit: 131Alpha
+    unit: 103Spiral
     requirements: [
-      silicon/50
+      silicon/150
+      titanium/75
     ] 
-    time: 600
+    time: 800
   }
   {
     unit: 21Drone

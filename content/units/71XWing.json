@@ -10,7 +10,8 @@
 	"health": 100,
 	"faceTarget": false
         "armor": 1.1,
-        "engineOffset": 8,
+        "engineOffset": 7,
+        "engineSize": 1,
         "drag": 0.01,
 	"range": 90,
         "speed": 2.8,
@@ -31,7 +32,7 @@
 			"bullet": {
 			            "type": "BasicBulletType",
 			            "lifetime": 45,
-                                    "damage": 45,
+                                    "damage": 10,
                                     "speed": 4,
 			            "collidesAir": true,
 			            "shootEffect": "shootSmall",
