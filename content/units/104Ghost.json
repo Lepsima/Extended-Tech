@@ -1,0 +1,58 @@
+{
+	"type": "flying",
+	"description": "Medium size carpet bomber",
+        "accel": 0.25,
+	"name": "Ghost",
+	"circleTarget": true,
+        "flying": true,
+        "hitSize": 12,
+	"health": 6250,
+        "rotateShooting": false,
+	"faceTarget": false,
+        "armor": 6,
+        "engineOffset": 1,
+        "engineSize": 3,
+        "drag": 0.1,
+	"range": 80,
+        "speed": 1.75,
+	"rotateSpeed": 3,
+        "research": "103Spirit",
+        "abilities": [
+                 {
+                        "type": "ForceFieldAbility",
+                        "radius": 45,
+                        "regen": 0.35f,
+                        "max": 950,
+                        "cooldown": 180,
+                 }
+                    ] 
+	"weapons": [
+		{
+                        "name": "Mini-fuse",
+			"shootSound": "shotgun",
+                        "autoTarget": true,
+                        "controllable": false,
+                        "recoil": 1,
+                        "shootCone": 30,
+                        "ejectEffect": "casing1",
+			"x": 14,
+			"y": -5,
+			"rotate": true,
+                        "shake": 3,
+                        "shots": 2,
+                        "spacing": 30,
+			"reload": 21,
+			"bullet": {
+			            "type": "ShrapnelBulletType",
+                                    "length": 60,
+                                    "damage": 65,
+                                    "width": 20,
+                                    "serrationLenScl": 7,
+                                    "serrationSpaceOffset": 50,
+                                    "serrationFadeOffset": 0,
+                                    "serrations": 6,
+                                    "serrationWidth": 12,
+                                  }
+		}         
+	]
+}
