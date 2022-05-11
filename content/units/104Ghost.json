@@ -5,7 +5,7 @@
 	"name": "Ghost",
 	"circleTarget": true,
         "flying": true,
-        "hitSize": 12,
+        "hitSize": 22,
 	"health": 6250,
         "rotateShooting": false,
 	"faceTarget": false,
@@ -14,7 +14,7 @@
         "engineSize": 3,
         "drag": 0.1,
 	"range": 80,
-        "speed": 1.75,
+        "speed": 1.1,
 	"rotateSpeed": 3,
         "research": "103Spirit",
         "abilities": [
@@ -28,7 +28,21 @@
                     ] 
 	"weapons": [
 		{
-                        "name": "Mini-fuse",
+                        "name": "repairMount"
+                        "type": "RepairBeamWeapon"
+                        "repairSpeed": 1,
+                        "beamWidth": 1,
+                        "pulseRadius": 6,
+                        "pulseStroke": 2,
+                        "mirror": false,
+                        "top": true,
+                        "x": 0,
+			"y": -7,
+			"rotate": true,
+		},
+		{
+                        "name": "Mini-fuse", 
+                        "top": true,
 			"shootSound": "shotgun",
                         "autoTarget": true,
                         "controllable": false,
@@ -39,18 +53,18 @@
 			"y": -5,
 			"rotate": true,
                         "shake": 3,
-                        "shots": 2,
+                        "shots": 3,
                         "spacing": 30,
 			"reload": 21,
 			"bullet": {
 			            "type": "ShrapnelBulletType",
-                                    "length": 60,
-                                    "damage": 65,
-                                    "width": 20,
-                                    "serrationLenScl": 7,
-                                    "serrationSpaceOffset": 50,
+                                    "length": 65,
+                                    "damage": 45,
+                                    "width": 12,
+                                    "serrationLenScl": 5,
+                                    "serrationSpaceOffset": 30,
                                     "serrationFadeOffset": 0,
-                                    "serrations": 6,
+                                    "serrations": 5,
                                     "serrationWidth": 12,
                                   }
 		}         
