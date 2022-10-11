@@ -8,8 +8,8 @@ Also contains some unfinished conceps(using json) like tractor beams, ion turret
 
 This is under development, i will update it SLOWLY so maybe i take breaks
 
-Now only works on V7 (v135)
+Now only works on V7 (v139)
 "
-minGameVersion: 135,
+minGameVersion: 139,
 dependencies:["multi-lib"],
 hidden: false
